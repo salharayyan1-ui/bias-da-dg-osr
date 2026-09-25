@@ -1,0 +1,54 @@
+[
+  {
+    "domain": "photo",
+    "total": 1670,
+    "train": 1337,
+    "val": 333,
+    "dog": 189,
+    "elephant": 202,
+    "giraffe": 182,
+    "guitar": 186,
+    "horse": 199,
+    "house": 280,
+    "person": 432
+  },
+  {
+    "domain": "art_painting",
+    "total": 2048,
+    "train": 1638,
+    "val": 410,
+    "dog": 379,
+    "elephant": 255,
+    "giraffe": 285,
+    "guitar": 184,
+    "horse": 201,
+    "house": 295,
+    "person": 449
+  },
+  {
+    "domain": "cartoon",
+    "total": 2344,
+    "train": 1875,
+    "val": 469,
+    "dog": 389,
+    "elephant": 457,
+    "giraffe": 346,
+    "guitar": 135,
+    "horse": 324,
+    "house": 288,
+    "person": 405
+  },
+  {
+    "domain": "sketch",
+    "total": 3929,
+    "train": 3143,
+    "val": 786,
+    "dog": 772,
+    "elephant": 740,
+    "giraffe": 753,
+    "guitar": 608,
+    "horse": 816,
+    "house": 80,
+    "person": 160
+  }
+]

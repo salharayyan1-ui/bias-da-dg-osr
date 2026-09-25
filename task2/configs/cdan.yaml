@@ -1,0 +1,9 @@
+defaults: base.yaml
+method: cdan
+discriminator_hidden_dim: 256
+discriminator_dropout: 0.5
+grl_schedule: "2/(1+exp(-10p))-1"
+domain_loss_weight: 1.0
+entropy_conditioning: false
+detach_features_or_probs: false
+discriminator_input: vec(sqrt(512) * f / ||f|| (x) p)   # fixed norm; run v1 used f / ||f|| (see README)

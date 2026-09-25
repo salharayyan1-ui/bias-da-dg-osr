@@ -1,0 +1,232 @@
+[
+  {
+    "run": "dan",
+    "kind": "most_improved",
+    "class": "horse",
+    "delta": 0.6458333333333334,
+    "confusions_run": [
+      {
+        "predicted_as": "dog",
+        "count": 44,
+        "fraction_of_class": 0.05392156862745098
+      },
+      {
+        "predicted_as": "house",
+        "count": 37,
+        "fraction_of_class": 0.04534313725490196
+      },
+      {
+        "predicted_as": "giraffe",
+        "count": 36,
+        "fraction_of_class": 0.04411764705882353
+      }
+    ],
+    "confusions_baseline": [
+      {
+        "predicted_as": "giraffe",
+        "count": 454,
+        "fraction_of_class": 0.5563725490196079
+      },
+      {
+        "predicted_as": "dog",
+        "count": 174,
+        "fraction_of_class": 0.21323529411764705
+      },
+      {
+        "predicted_as": "elephant",
+        "count": 72,
+        "fraction_of_class": 0.08823529411764706
+      }
+    ]
+  },
+  {
+    "run": "dan",
+    "kind": "most_degraded",
+    "class": "elephant",
+    "delta": -0.11621621621621625,
+    "confusions_run": [
+      {
+        "predicted_as": "dog",
+        "count": 142,
+        "fraction_of_class": 0.1918918918918919
+      },
+      {
+        "predicted_as": "person",
+        "count": 57,
+        "fraction_of_class": 0.07702702702702703
+      },
+      {
+        "predicted_as": "house",
+        "count": 14,
+        "fraction_of_class": 0.01891891891891892
+      }
+    ],
+    "confusions_baseline": [
+      {
+        "predicted_as": "giraffe",
+        "count": 77,
+        "fraction_of_class": 0.10405405405405406
+      },
+      {
+        "predicted_as": "dog",
+        "count": 76,
+        "fraction_of_class": 0.10270270270270271
+      }
+    ]
+  },
+  {
+    "run": "dann",
+    "kind": "most_improved",
+    "class": "giraffe",
+    "delta": 0.15670650730411695,
+    "confusions_run": [
+      {
+        "predicted_as": "dog",
+        "count": 22,
+        "fraction_of_class": 0.029216467463479414
+      },
+      {
+        "predicted_as": "horse",
+        "count": 2,
+        "fraction_of_class": 0.0026560424966799467
+      },
+      {
+        "predicted_as": "elephant",
+        "count": 1,
+        "fraction_of_class": 0.0013280212483399733
+      }
+    ],
+    "confusions_baseline": [
+      {
+        "predicted_as": "elephant",
+        "count": 64,
+        "fraction_of_class": 0.0849933598937583
+      },
+      {
+        "predicted_as": "dog",
+        "count": 59,
+        "fraction_of_class": 0.07835325365205843
+      },
+      {
+        "predicted_as": "horse",
+        "count": 14,
+        "fraction_of_class": 0.01859229747675963
+      }
+    ]
+  },
+  {
+    "run": "dann",
+    "kind": "most_degraded",
+    "class": "house",
+    "delta": -0.925,
+    "confusions_run": [
+      {
+        "predicted_as": "giraffe",
+        "count": 46,
+        "fraction_of_class": 0.575
+      },
+      {
+        "predicted_as": "dog",
+        "count": 32,
+        "fraction_of_class": 0.4
+      },
+      {
+        "predicted_as": "guitar",
+        "count": 1,
+        "fraction_of_class": 0.0125
+      }
+    ],
+    "confusions_baseline": [
+      {
+        "predicted_as": "giraffe",
+        "count": 5,
+        "fraction_of_class": 0.0625
+      },
+      {
+        "predicted_as": "elephant",
+        "count": 1,
+        "fraction_of_class": 0.0125
+      }
+    ]
+  },
+  {
+    "run": "cdan",
+    "kind": "most_improved",
+    "class": "horse",
+    "delta": 0.4105392156862745,
+    "confusions_run": [
+      {
+        "predicted_as": "dog",
+        "count": 243,
+        "fraction_of_class": 0.2977941176470588
+      },
+      {
+        "predicted_as": "house",
+        "count": 77,
+        "fraction_of_class": 0.09436274509803921
+      },
+      {
+        "predicted_as": "elephant",
+        "count": 46,
+        "fraction_of_class": 0.056372549019607844
+      }
+    ],
+    "confusions_baseline": [
+      {
+        "predicted_as": "giraffe",
+        "count": 454,
+        "fraction_of_class": 0.5563725490196079
+      },
+      {
+        "predicted_as": "dog",
+        "count": 174,
+        "fraction_of_class": 0.21323529411764705
+      },
+      {
+        "predicted_as": "elephant",
+        "count": 72,
+        "fraction_of_class": 0.08823529411764706
+      }
+    ]
+  },
+  {
+    "run": "cdan",
+    "kind": "most_degraded",
+    "class": "giraffe",
+    "delta": -0.2841965471447543,
+    "confusions_run": [
+      {
+        "predicted_as": "dog",
+        "count": 216,
+        "fraction_of_class": 0.2868525896414343
+      },
+      {
+        "predicted_as": "horse",
+        "count": 69,
+        "fraction_of_class": 0.09163346613545817
+      },
+      {
+        "predicted_as": "house",
+        "count": 43,
+        "fraction_of_class": 0.057104913678618856
+      }
+    ],
+    "confusions_baseline": [
+      {
+        "predicted_as": "elephant",
+        "count": 64,
+        "fraction_of_class": 0.0849933598937583
+      },
+      {
+        "predicted_as": "dog",
+        "count": 59,
+        "fraction_of_class": 0.07835325365205843
+      },
+      {
+        "predicted_as": "horse",
+        "count": 14,
+        "fraction_of_class": 0.01859229747675963
+      }
+    ]
+  }
+]

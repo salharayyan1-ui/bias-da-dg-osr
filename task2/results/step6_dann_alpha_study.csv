@@ -1,0 +1,4 @@
+run,photo_acc,photo_f1,art_painting_acc,art_painting_f1,cartoon_acc,cartoon_f1,mean_source_acc,mean_source_f1,worst_source_acc,worst_source_f1,worst_source_domain_by_f1,target_acc,target_f1,domain_separability,target_acc_change_vs_source_only,source_to_target_gap_acc,max_alpha,largest_predicted_class,largest_predicted_frac,disc_acc_epoch0,mean_disc_acc_after_epoch0
+dann_alpha0.25,0.9550,0.9460,0.9146,0.9102,0.9424,0.9436,0.9373,0.9333,0.9146,0.9102,art_painting,0.5747,0.6162,0.9890,0.0028,0.3626,0.2500,dog,0.4864,0.8634,0.5648
+dann_alpha0.5,0.9550,0.9456,0.9366,0.9368,0.9488,0.9503,0.9468,0.9442,0.9366,0.9368,art_painting,0.2807,0.1780,0.9986,-0.2912,0.6661,0.5000,elephant,0.8992,0.7211,0.4881
+dann,0.9580,0.9496,0.9488,0.9465,0.9488,0.9503,0.9519,0.9488,0.9488,0.9465,art_painting,0.2476,0.1329,0.9986,-0.3243,0.7042,1.0000,giraffe,0.8531,0.6075,0.4026

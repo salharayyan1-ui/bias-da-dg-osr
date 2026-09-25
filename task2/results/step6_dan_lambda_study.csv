@@ -1,0 +1,4 @@
+run,photo_acc,photo_f1,art_painting_acc,art_painting_f1,cartoon_acc,cartoon_f1,mean_source_acc,mean_source_f1,worst_source_acc,worst_source_f1,worst_source_domain_by_f1,target_acc,target_f1,domain_separability,target_acc_change_vs_source_only,source_to_target_gap_acc,lambda_mmd
+dan_lambda0.1,0.9580,0.9494,0.9244,0.9215,0.9424,0.9410,0.9416,0.9373,0.9244,0.9215,art_painting,0.7216,0.6738,0.9739,0.1497,0.2200,0.1000
+dan,0.9670,0.9594,0.8927,0.8849,0.9296,0.9260,0.9298,0.9234,0.8927,0.8849,art_painting,0.7580,0.7322,0.9299,0.1861,0.1718,1.0000
+dan_lambda10,0.9219,0.9068,0.8780,0.8707,0.8913,0.9037,0.8971,0.8937,0.8780,0.8707,art_painting,0.6058,0.5672,0.7995,0.0339,0.2913,10.0000

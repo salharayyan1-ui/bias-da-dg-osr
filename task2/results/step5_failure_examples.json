@@ -1,0 +1,194 @@
+[
+  {
+    "run": "dan",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00303.png",
+    "true": "elephant",
+    "source_only_pred": "elephant",
+    "run_pred": "dog"
+  },
+  {
+    "run": "dan",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/giraffe/00322.png",
+    "true": "giraffe",
+    "source_only_pred": "giraffe",
+    "run_pred": "dog"
+  },
+  {
+    "run": "dan",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00500.png",
+    "true": "elephant",
+    "source_only_pred": "elephant",
+    "run_pred": "horse"
+  },
+  {
+    "run": "dan",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00262.png",
+    "true": "dog",
+    "source_only_pred": "dog",
+    "run_pred": "horse"
+  },
+  {
+    "run": "dan",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00266.png",
+    "true": "horse",
+    "source_only_pred": "dog",
+    "run_pred": "horse"
+  },
+  {
+    "run": "dan",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00191.png",
+    "true": "dog",
+    "source_only_pred": "elephant",
+    "run_pred": "dog"
+  },
+  {
+    "run": "dan",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/person/00045.png",
+    "true": "person",
+    "source_only_pred": "giraffe",
+    "run_pred": "person"
+  },
+  {
+    "run": "dan",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00603.png",
+    "true": "horse",
+    "source_only_pred": "dog",
+    "run_pred": "horse"
+  },
+  {
+    "run": "dann",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00425.png",
+    "true": "elephant",
+    "source_only_pred": "elephant",
+    "run_pred": "giraffe"
+  },
+  {
+    "run": "dann",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/guitar/00280.png",
+    "true": "guitar",
+    "source_only_pred": "guitar",
+    "run_pred": "giraffe"
+  },
+  {
+    "run": "dann",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/guitar/00266.png",
+    "true": "guitar",
+    "source_only_pred": "guitar",
+    "run_pred": "giraffe"
+  },
+  {
+    "run": "dann",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00168.png",
+    "true": "elephant",
+    "source_only_pred": "elephant",
+    "run_pred": "giraffe"
+  },
+  {
+    "run": "dann",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/giraffe/00511.png",
+    "true": "giraffe",
+    "source_only_pred": "dog",
+    "run_pred": "giraffe"
+  },
+  {
+    "run": "dann",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/giraffe/00401.png",
+    "true": "giraffe",
+    "source_only_pred": "dog",
+    "run_pred": "giraffe"
+  },
+  {
+    "run": "dann",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/giraffe/00128.png",
+    "true": "giraffe",
+    "source_only_pred": "dog",
+    "run_pred": "giraffe"
+  },
+  {
+    "run": "dann",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/giraffe/00737.png",
+    "true": "giraffe",
+    "source_only_pred": "dog",
+    "run_pred": "giraffe"
+  },
+  {
+    "run": "cdan",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/giraffe/00013.png",
+    "true": "giraffe",
+    "source_only_pred": "giraffe",
+    "run_pred": "house"
+  },
+  {
+    "run": "cdan",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00079.png",
+    "true": "elephant",
+    "source_only_pred": "elephant",
+    "run_pred": "house"
+  },
+  {
+    "run": "cdan",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00015.png",
+    "true": "elephant",
+    "source_only_pred": "elephant",
+    "run_pred": "house"
+  },
+  {
+    "run": "cdan",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/giraffe/00288.png",
+    "true": "giraffe",
+    "source_only_pred": "giraffe",
+    "run_pred": "horse"
+  },
+  {
+    "run": "cdan",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00385.png",
+    "true": "horse",
+    "source_only_pred": "elephant",
+    "run_pred": "horse"
+  },
+  {
+    "run": "cdan",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00127.png",
+    "true": "elephant",
+    "source_only_pred": "giraffe",
+    "run_pred": "elephant"
+  },
+  {
+    "run": "cdan",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/house/00042.png",
+    "true": "house",
+    "source_only_pred": "giraffe",
+    "run_pred": "house"
+  },
+  {
+    "run": "cdan",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/guitar/00221.png",
+    "true": "guitar",
+    "source_only_pred": "elephant",
+    "run_pred": "guitar"
+  }
+]

@@ -1,0 +1,7 @@
+defaults: base.yaml
+method: dann
+discriminator_hidden_dim: 256
+discriminator_dropout: 0.5
+grl_schedule: "2/(1+exp(-10p))-1"
+domain_loss_weight: 1.0
+discriminator_input: sqrt(512) * f / ||f||   # fixed norm; run v1 used f / ||f|| (see README)

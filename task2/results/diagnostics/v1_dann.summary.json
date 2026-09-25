@@ -1,0 +1,28 @@
+{
+  "best_epoch": 3,
+  "best_mean_val_macro_f1": 0.9373817403814427,
+  "config": {
+    "device": "cuda",
+    "eval_batch": 128,
+    "lr": 0.0001,
+    "max_epochs": 30,
+    "max_steps_per_epoch": null,
+    "num_workers": 2,
+    "patience": 5,
+    "per_source_batch": 8,
+    "seed": 6304,
+    "target_batch": 24,
+    "weight_decay": 0.0001
+  },
+  "epochs_run": 9,
+  "hparams": {
+    "max_alpha": 1.0
+  },
+  "method": "dann",
+  "minutes": 4.110328364372253,
+  "run": "dann",
+  "run_name": "dann",
+  "steps_per_epoch": 234,
+  "stopped_early": true,
+  "wall_clock_seconds": 246.65
+}

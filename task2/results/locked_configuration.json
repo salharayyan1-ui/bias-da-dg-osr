@@ -1,0 +1,233 @@
+{
+  "config": {
+    "max_epochs": "30",
+    "lr": "0.0001",
+    "weight_decay": "0.0001",
+    "patience": "5",
+    "seed": "6304",
+    "per_source_batch": "8",
+    "target_batch": "24",
+    "num_workers": "2",
+    "eval_batch": "128",
+    "device": "cuda",
+    "max_steps_per_epoch": "None"
+  },
+  "runs": {
+    "source_only": {
+      "run": "source_only",
+      "method": "source_only",
+      "hparams": {},
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 10,
+      "best_mean_val_macro_f1": 0.9429884347046714,
+      "epochs_run": 16,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 7.906783429781596
+    },
+    "dan": {
+      "run": "dan",
+      "method": "dan",
+      "hparams": {
+        "lambda_mmd": 1.0
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 1,
+      "best_mean_val_macro_f1": 0.9234286067729945,
+      "epochs_run": 7,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 6.0491776665051775
+    },
+    "dann": {
+      "run": "dann",
+      "method": "dann",
+      "hparams": {
+        "max_alpha": 1.0
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 5,
+      "best_mean_val_macro_f1": 0.9487852771490634,
+      "epochs_run": 11,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 9.249171336491903
+    },
+    "cdan": {
+      "run": "cdan",
+      "method": "cdan",
+      "hparams": {
+        "max_alpha": 1.0
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 8,
+      "best_mean_val_macro_f1": 0.9337999600149794,
+      "epochs_run": 14,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 11.830214806397755
+    },
+    "dan_lambda0.1": {
+      "run": "dan_lambda0.1",
+      "method": "dan",
+      "hparams": {
+        "lambda_mmd": 0.1
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 5,
+      "best_mean_val_macro_f1": 0.9372875913161397,
+      "epochs_run": 11,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 9.41501358350118
+    },
+    "dan_lambda10": {
+      "run": "dan_lambda10",
+      "method": "dan",
+      "hparams": {
+        "lambda_mmd": 10.0
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 7,
+      "best_mean_val_macro_f1": 0.893689985621218,
+      "epochs_run": 13,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 11.10997356971105
+    },
+    "dann_alpha0.25": {
+      "run": "dann_alpha0.25",
+      "method": "dann",
+      "hparams": {
+        "max_alpha": 0.25
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 7,
+      "best_mean_val_macro_f1": 0.9332665030245012,
+      "epochs_run": 13,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 6.013171037038167
+    },
+    "dann_alpha0.5": {
+      "run": "dann_alpha0.5",
+      "method": "dann",
+      "hparams": {
+        "max_alpha": 0.5
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 6,
+      "best_mean_val_macro_f1": 0.9442194686207827,
+      "epochs_run": 12,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 9.414544967810313
+    }
+  },
+  "checkpoints": {
+    "source_only": "/workspace/pa1-beyond-iid/task2/checkpoints/source_only.pth",
+    "dan": "/workspace/pa1-beyond-iid/task2/checkpoints/dan.pth",
+    "dann": "/workspace/pa1-beyond-iid/task2/checkpoints/dann.pth",
+    "cdan": "/workspace/pa1-beyond-iid/task2/checkpoints/cdan.pth",
+    "dan_lambda0.1": "/workspace/pa1-beyond-iid/task2/checkpoints/dan_lambda0.1.pth",
+    "dan_lambda10": "/workspace/pa1-beyond-iid/task2/checkpoints/dan_lambda10.pth",
+    "dann_alpha0.25": "/workspace/pa1-beyond-iid/task2/checkpoints/dann_alpha0.25.pth",
+    "dann_alpha0.5": "/workspace/pa1-beyond-iid/task2/checkpoints/dann_alpha0.5.pth"
+  }
+}

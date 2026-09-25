@@ -1,0 +1,5 @@
+run,best_epoch,epochs_run,stopped_early,best_mean_source_val_f1,minutes
+source_only,10,16,True,0.9430,7.9068
+dan,1,7,True,0.9234,6.0492
+dann,5,11,True,0.9488,9.2492
+cdan,8,14,True,0.9338,11.8302

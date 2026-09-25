@@ -1,0 +1,8 @@
+class,mean_source_val_acc,sketch_acc
+dog,0.9215,0.4870
+elephant,0.9786,0.7932
+giraffe,0.9835,0.8088
+guitar,0.9336,0.7204
+horse,0.8808,0.1348
+house,0.9885,0.9250
+person,0.9255,0.3312

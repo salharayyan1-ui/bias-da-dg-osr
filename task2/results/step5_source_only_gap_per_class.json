@@ -1,0 +1,37 @@
+[
+  {
+    "class": "dog",
+    "mean_source_val_acc": 0.9215024741340532,
+    "sketch_acc": 0.48704663212435234
+  },
+  {
+    "class": "elephant",
+    "mean_source_val_acc": 0.97859477124183,
+    "sketch_acc": 0.7932432432432432
+  },
+  {
+    "class": "giraffe",
+    "mean_source_val_acc": 0.9834731756928553,
+    "sketch_acc": 0.8087649402390438
+  },
+  {
+    "class": "guitar",
+    "mean_source_val_acc": 0.9336002669336003,
+    "sketch_acc": 0.7203947368421053
+  },
+  {
+    "class": "horse",
+    "mean_source_val_acc": 0.8807692307692307,
+    "sketch_acc": 0.13480392156862744
+  },
+  {
+    "class": "house",
+    "mean_source_val_acc": 0.9885057471264368,
+    "sketch_acc": 0.925
+  },
+  {
+    "class": "person",
+    "mean_source_val_acc": 0.925514403292181,
+    "sketch_acc": 0.33125
+  }
+]

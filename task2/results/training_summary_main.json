@@ -1,0 +1,34 @@
+[
+  {
+    "run": "source_only",
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "stopped_early": true,
+    "best_mean_source_val_f1": 0.9429884347046714,
+    "minutes": 7.906783429781596
+  },
+  {
+    "run": "dan",
+    "best_epoch": 1,
+    "epochs_run": 7,
+    "stopped_early": true,
+    "best_mean_source_val_f1": 0.9234286067729945,
+    "minutes": 6.0491776665051775
+  },
+  {
+    "run": "dann",
+    "best_epoch": 5,
+    "epochs_run": 11,
+    "stopped_early": true,
+    "best_mean_source_val_f1": 0.9487852771490634,
+    "minutes": 9.249171336491903
+  },
+  {
+    "run": "cdan",
+    "best_epoch": 8,
+    "epochs_run": 14,
+    "stopped_early": true,
+    "best_mean_source_val_f1": 0.9337999600149794,
+    "minutes": 11.830214806397755
+  }
+]

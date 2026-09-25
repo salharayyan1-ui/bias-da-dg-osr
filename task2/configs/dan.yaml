@@ -1,0 +1,6 @@
+defaults: base.yaml
+method: dan
+lambda_mmd: 1.0
+mmd_kernel_mults: [0.5, 1.0, 2.0]   # x median pairwise squared distance of the combined batch
+mmd_estimator: unbiased U-statistic (Gretton et al. 2012)   # the biased V-statistic collapsed DAN-DG (see README)
+controlled_study_lambda_mmd: [0.1, 1.0, 10.0]

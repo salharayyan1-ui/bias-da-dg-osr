@@ -1,0 +1,226 @@
+[
+  {
+    "run": "source_only",
+    "class": "dog",
+    "n": 772,
+    "accuracy": 0.48704663212435234,
+    "baseline_accuracy": 0.48704663212435234,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "source_only",
+    "class": "elephant",
+    "n": 740,
+    "accuracy": 0.7932432432432432,
+    "baseline_accuracy": 0.7932432432432432,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "source_only",
+    "class": "giraffe",
+    "n": 753,
+    "accuracy": 0.8087649402390438,
+    "baseline_accuracy": 0.8087649402390438,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "source_only",
+    "class": "guitar",
+    "n": 608,
+    "accuracy": 0.7203947368421053,
+    "baseline_accuracy": 0.7203947368421053,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "source_only",
+    "class": "horse",
+    "n": 816,
+    "accuracy": 0.13480392156862744,
+    "baseline_accuracy": 0.13480392156862744,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "source_only",
+    "class": "house",
+    "n": 80,
+    "accuracy": 0.925,
+    "baseline_accuracy": 0.925,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "source_only",
+    "class": "person",
+    "n": 160,
+    "accuracy": 0.33125,
+    "baseline_accuracy": 0.33125,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "dan",
+    "class": "dog",
+    "n": 772,
+    "accuracy": 0.5453367875647669,
+    "baseline_accuracy": 0.48704663212435234,
+    "delta_vs_baseline": 0.05829015544041455
+  },
+  {
+    "run": "dan",
+    "class": "elephant",
+    "n": 740,
+    "accuracy": 0.677027027027027,
+    "baseline_accuracy": 0.7932432432432432,
+    "delta_vs_baseline": -0.11621621621621625
+  },
+  {
+    "run": "dan",
+    "class": "giraffe",
+    "n": 753,
+    "accuracy": 0.795484727755644,
+    "baseline_accuracy": 0.8087649402390438,
+    "delta_vs_baseline": -0.013280212483399723
+  },
+  {
+    "run": "dan",
+    "class": "guitar",
+    "n": 608,
+    "accuracy": 0.9703947368421053,
+    "baseline_accuracy": 0.7203947368421053,
+    "delta_vs_baseline": 0.25
+  },
+  {
+    "run": "dan",
+    "class": "horse",
+    "n": 816,
+    "accuracy": 0.7806372549019608,
+    "baseline_accuracy": 0.13480392156862744,
+    "delta_vs_baseline": 0.6458333333333334
+  },
+  {
+    "run": "dan",
+    "class": "house",
+    "n": 80,
+    "accuracy": 1.0,
+    "baseline_accuracy": 0.925,
+    "delta_vs_baseline": 0.07499999999999996
+  },
+  {
+    "run": "dan",
+    "class": "person",
+    "n": 160,
+    "accuracy": 0.9375,
+    "baseline_accuracy": 0.33125,
+    "delta_vs_baseline": 0.60625
+  },
+  {
+    "run": "dann",
+    "class": "dog",
+    "n": 772,
+    "accuracy": 0.08160621761658031,
+    "baseline_accuracy": 0.48704663212435234,
+    "delta_vs_baseline": -0.405440414507772
+  },
+  {
+    "run": "dann",
+    "class": "elephant",
+    "n": 740,
+    "accuracy": 0.002702702702702703,
+    "baseline_accuracy": 0.7932432432432432,
+    "delta_vs_baseline": -0.7905405405405406
+  },
+  {
+    "run": "dann",
+    "class": "giraffe",
+    "n": 753,
+    "accuracy": 0.9654714475431607,
+    "baseline_accuracy": 0.8087649402390438,
+    "delta_vs_baseline": 0.15670650730411695
+  },
+  {
+    "run": "dann",
+    "class": "guitar",
+    "n": 608,
+    "accuracy": 0.28289473684210525,
+    "baseline_accuracy": 0.7203947368421053,
+    "delta_vs_baseline": -0.43750000000000006
+  },
+  {
+    "run": "dann",
+    "class": "horse",
+    "n": 816,
+    "accuracy": 0.011029411764705883,
+    "baseline_accuracy": 0.13480392156862744,
+    "delta_vs_baseline": -0.12377450980392156
+  },
+  {
+    "run": "dann",
+    "class": "house",
+    "n": 80,
+    "accuracy": 0.0,
+    "baseline_accuracy": 0.925,
+    "delta_vs_baseline": -0.925
+  },
+  {
+    "run": "dann",
+    "class": "person",
+    "n": 160,
+    "accuracy": 0.0,
+    "baseline_accuracy": 0.33125,
+    "delta_vs_baseline": -0.33125
+  },
+  {
+    "run": "cdan",
+    "class": "dog",
+    "n": 772,
+    "accuracy": 0.6826424870466321,
+    "baseline_accuracy": 0.48704663212435234,
+    "delta_vs_baseline": 0.19559585492227977
+  },
+  {
+    "run": "cdan",
+    "class": "elephant",
+    "n": 740,
+    "accuracy": 0.8675675675675676,
+    "baseline_accuracy": 0.7932432432432432,
+    "delta_vs_baseline": 0.07432432432432434
+  },
+  {
+    "run": "cdan",
+    "class": "giraffe",
+    "n": 753,
+    "accuracy": 0.5245683930942895,
+    "baseline_accuracy": 0.8087649402390438,
+    "delta_vs_baseline": -0.2841965471447543
+  },
+  {
+    "run": "cdan",
+    "class": "guitar",
+    "n": 608,
+    "accuracy": 0.8273026315789473,
+    "baseline_accuracy": 0.7203947368421053,
+    "delta_vs_baseline": 0.10690789473684204
+  },
+  {
+    "run": "cdan",
+    "class": "horse",
+    "n": 816,
+    "accuracy": 0.5453431372549019,
+    "baseline_accuracy": 0.13480392156862744,
+    "delta_vs_baseline": 0.4105392156862745
+  },
+  {
+    "run": "cdan",
+    "class": "house",
+    "n": 80,
+    "accuracy": 1.0,
+    "baseline_accuracy": 0.925,
+    "delta_vs_baseline": 0.07499999999999996
+  },
+  {
+    "run": "cdan",
+    "class": "person",
+    "n": 160,
+    "accuracy": 0.11875,
+    "baseline_accuracy": 0.33125,
+    "delta_vs_baseline": -0.2125
+  }
+]

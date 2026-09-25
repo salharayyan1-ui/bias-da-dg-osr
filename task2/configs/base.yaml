@@ -1,0 +1,20 @@
+# Shared across every Task 2 method — do not vary these between methods.
+seed: 6304
+backbone: resnet18
+pretrained_weights: IMAGENET1K_V1
+n_classes: 7
+image_resize: [256, 256]
+train_crop: 224
+eval_crop: 224
+horizontal_flip: true
+freeze_bn_running_stats: true
+optimizer: adamw
+lr: 1.0e-4
+weight_decay: 1.0e-4
+max_epochs: 30
+early_stopping_patience: 5
+checkpoint_selection_metric: mean_source_val_macro_f1
+per_source_domain_batch_size: 8
+target_batch_size: 24
+source_domains: [photo, art_painting, cartoon]
+target_domain: sketch
