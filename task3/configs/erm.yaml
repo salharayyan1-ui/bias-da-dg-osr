@@ -1,0 +1,3 @@
+# ERM is NOT retrained: it is the Task 2 Source-only checkpoint, loaded verbatim.
+method: erm
+reuses_checkpoint: task2/checkpoints/source_only.pth

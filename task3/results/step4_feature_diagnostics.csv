@@ -1,0 +1,6 @@
+run,mean_feature_norm,frac_zero_activations,effective_rank,class_probe_acc_5fold,mean_source_f1
+erm,70.8267,0.0514,11.7247,0.9530,0.9430
+dan_dg,41.3207,0.0284,16.0711,0.9406,0.9437
+sam,42.1803,0.2150,12.9543,0.9530,0.9549
+dan_dg_lambda0.1,54.9962,0.0376,14.5820,0.9489,0.9403
+dan_dg_lambda10,106.6458,0.3018,2.6529,0.5619,0.3779

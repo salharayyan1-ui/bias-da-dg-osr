@@ -1,0 +1,23 @@
+[
+  {
+    "lambda": 0.1,
+    "DAN_T2_sketch_acc": 0.7216,
+    "DAN_DG_T3_sketch_acc": 0.6062611351488928,
+    "DAN_T2_mean_source_acc": 0.9416,
+    "DAN_DG_T3_mean_source_acc": 0.9403760565391436
+  },
+  {
+    "lambda": 1.0,
+    "DAN_T2_sketch_acc": 0.758,
+    "DAN_DG_T3_sketch_acc": 0.5848816492746246,
+    "DAN_T2_mean_source_acc": 0.9298,
+    "DAN_DG_T3_mean_source_acc": 0.9452622261868712
+  },
+  {
+    "lambda": 10.0,
+    "DAN_T2_sketch_acc": 0.6058,
+    "DAN_DG_T3_sketch_acc": 0.2267752608806312,
+    "DAN_T2_mean_source_acc": 0.8971,
+    "DAN_DG_T3_mean_source_acc": 0.4353811609727154
+  }
+]

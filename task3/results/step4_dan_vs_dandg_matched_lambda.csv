@@ -1,0 +1,4 @@
+lambda,DAN_T2_sketch_acc,DAN_DG_T3_sketch_acc,DAN_T2_mean_source_acc,DAN_DG_T3_mean_source_acc
+0.1000,0.7216,0.6063,0.9416,0.9404
+1.0000,0.7580,0.5849,0.9298,0.9453
+10.0000,0.6058,0.2268,0.8971,0.4354

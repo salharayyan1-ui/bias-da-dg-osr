@@ -1,0 +1,20 @@
+seed: 6304
+method: dan_dg
+backbone: resnet18
+pretrained_weights: IMAGENET1K_V1
+n_classes: 7
+freeze_bn_running_stats: true
+optimizer: adamw
+lr: 1.0e-4
+weight_decay: 1.0e-4
+max_epochs: 30
+early_stopping_patience: 5
+per_source_domain_batch_size: 8
+source_domains: [photo, art_painting, cartoon]
+lambda_dg: 1.0
+mmd_kernel_mults: [0.5, 1.0, 2.0]
+controlled_study_lambda_dg_values: [0.1, 1.0, 10.0]
+checkpoint_selection_metric: mean_source_val_macro_f1
+sharpness_diagnostic_rho: 0.05
+sharpness_diagnostic_examples_per_source: 32
+mmd_estimator: unbiased U-statistic (same code as Task 2 DAN)

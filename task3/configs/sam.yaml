@@ -1,0 +1,17 @@
+seed: 6304
+method: sam
+backbone: resnet18
+pretrained_weights: IMAGENET1K_V1
+n_classes: 7
+freeze_bn_running_stats: true
+optimizer: adamw
+lr: 1.0e-4
+weight_decay: 1.0e-4
+max_epochs: 30
+early_stopping_patience: 5
+per_source_domain_batch_size: 8
+source_domains: [photo, art_painting, cartoon]
+rho: 0.05
+controlled_study_rho_values: [0.01, 0.05, 0.1]
+sharpness_diagnostic_rho: 0.05
+sharpness_diagnostic_examples_per_source: 32

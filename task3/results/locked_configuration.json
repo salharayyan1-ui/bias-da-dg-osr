@@ -1,0 +1,145 @@
+{
+  "config": {
+    "max_epochs": "30",
+    "lr": "0.0001",
+    "weight_decay": "0.0001",
+    "patience": "5",
+    "seed": "6304",
+    "per_source_batch": "8",
+    "target_batch": "24",
+    "num_workers": "2",
+    "eval_batch": "128",
+    "device": "cuda",
+    "max_steps_per_epoch": "None"
+  },
+  "runs": {
+    "erm": {
+      "run": "source_only",
+      "method": "source_only",
+      "hparams": {},
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 10,
+      "best_mean_val_macro_f1": 0.9429884347046714,
+      "epochs_run": 16,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 7.906783429781596
+    },
+    "dan_dg": {
+      "run": "dan_dg",
+      "method": "dan_dg",
+      "hparams": {
+        "lambda_dg": 1.0
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 4,
+      "best_mean_val_macro_f1": 0.9436662569078215,
+      "epochs_run": 10,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 5.565981928507487
+    },
+    "sam": {
+      "run": "sam",
+      "method": "sam",
+      "hparams": {
+        "rho": 0.05
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 13,
+      "best_mean_val_macro_f1": 0.9549425389840036,
+      "epochs_run": 19,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 15.982497684160869
+    },
+    "dan_dg_lambda0.1": {
+      "run": "dan_dg_lambda0.1",
+      "method": "dan_dg",
+      "hparams": {
+        "lambda_dg": 0.1
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 6,
+      "best_mean_val_macro_f1": 0.9402519779800267,
+      "epochs_run": 12,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 6.660854840278626
+    },
+    "dan_dg_lambda10": {
+      "run": "dan_dg_lambda10",
+      "method": "dan_dg",
+      "hparams": {
+        "lambda_dg": 10.0
+      },
+      "config": {
+        "max_epochs": 30,
+        "lr": 0.0001,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "seed": 6304,
+        "per_source_batch": 8,
+        "target_batch": 24,
+        "num_workers": 2,
+        "eval_batch": 128,
+        "device": "cuda",
+        "max_steps_per_epoch": null
+      },
+      "best_epoch": 0,
+      "best_mean_val_macro_f1": 0.3778709298463206,
+      "epochs_run": 6,
+      "steps_per_epoch": 234,
+      "stopped_early": true,
+      "minutes": 3.3487414518992105
+    }
+  }
+}

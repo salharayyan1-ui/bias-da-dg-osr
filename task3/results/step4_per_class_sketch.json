@@ -1,0 +1,170 @@
+[
+  {
+    "run": "erm",
+    "class": "dog",
+    "n": 772,
+    "accuracy": 0.48704663212435234,
+    "baseline_accuracy": 0.48704663212435234,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "erm",
+    "class": "elephant",
+    "n": 740,
+    "accuracy": 0.7932432432432432,
+    "baseline_accuracy": 0.7932432432432432,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "erm",
+    "class": "giraffe",
+    "n": 753,
+    "accuracy": 0.8087649402390438,
+    "baseline_accuracy": 0.8087649402390438,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "erm",
+    "class": "guitar",
+    "n": 608,
+    "accuracy": 0.7203947368421053,
+    "baseline_accuracy": 0.7203947368421053,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "erm",
+    "class": "horse",
+    "n": 816,
+    "accuracy": 0.13480392156862744,
+    "baseline_accuracy": 0.13480392156862744,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "erm",
+    "class": "house",
+    "n": 80,
+    "accuracy": 0.925,
+    "baseline_accuracy": 0.925,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "erm",
+    "class": "person",
+    "n": 160,
+    "accuracy": 0.33125,
+    "baseline_accuracy": 0.33125,
+    "delta_vs_baseline": 0.0
+  },
+  {
+    "run": "dan_dg",
+    "class": "dog",
+    "n": 772,
+    "accuracy": 0.3626943005181347,
+    "baseline_accuracy": 0.48704663212435234,
+    "delta_vs_baseline": -0.12435233160621761
+  },
+  {
+    "run": "dan_dg",
+    "class": "elephant",
+    "n": 740,
+    "accuracy": 0.32297297297297295,
+    "baseline_accuracy": 0.7932432432432432,
+    "delta_vs_baseline": -0.4702702702702703
+  },
+  {
+    "run": "dan_dg",
+    "class": "giraffe",
+    "n": 753,
+    "accuracy": 0.5139442231075697,
+    "baseline_accuracy": 0.8087649402390438,
+    "delta_vs_baseline": -0.29482071713147406
+  },
+  {
+    "run": "dan_dg",
+    "class": "guitar",
+    "n": 608,
+    "accuracy": 0.7796052631578947,
+    "baseline_accuracy": 0.7203947368421053,
+    "delta_vs_baseline": 0.05921052631578938
+  },
+  {
+    "run": "dan_dg",
+    "class": "horse",
+    "n": 816,
+    "accuracy": 0.9375,
+    "baseline_accuracy": 0.13480392156862744,
+    "delta_vs_baseline": 0.8026960784313726
+  },
+  {
+    "run": "dan_dg",
+    "class": "house",
+    "n": 80,
+    "accuracy": 0.9375,
+    "baseline_accuracy": 0.925,
+    "delta_vs_baseline": 0.012499999999999956
+  },
+  {
+    "run": "dan_dg",
+    "class": "person",
+    "n": 160,
+    "accuracy": 0.4875,
+    "baseline_accuracy": 0.33125,
+    "delta_vs_baseline": 0.15625
+  },
+  {
+    "run": "sam",
+    "class": "dog",
+    "n": 772,
+    "accuracy": 0.33031088082901555,
+    "baseline_accuracy": 0.48704663212435234,
+    "delta_vs_baseline": -0.1567357512953368
+  },
+  {
+    "run": "sam",
+    "class": "elephant",
+    "n": 740,
+    "accuracy": 0.9364864864864865,
+    "baseline_accuracy": 0.7932432432432432,
+    "delta_vs_baseline": 0.14324324324324322
+  },
+  {
+    "run": "sam",
+    "class": "giraffe",
+    "n": 753,
+    "accuracy": 0.747675962815405,
+    "baseline_accuracy": 0.8087649402390438,
+    "delta_vs_baseline": -0.061088977423638724
+  },
+  {
+    "run": "sam",
+    "class": "guitar",
+    "n": 608,
+    "accuracy": 0.9078947368421053,
+    "baseline_accuracy": 0.7203947368421053,
+    "delta_vs_baseline": 0.1875
+  },
+  {
+    "run": "sam",
+    "class": "horse",
+    "n": 816,
+    "accuracy": 0.8161764705882353,
+    "baseline_accuracy": 0.13480392156862744,
+    "delta_vs_baseline": 0.6813725490196079
+  },
+  {
+    "run": "sam",
+    "class": "house",
+    "n": 80,
+    "accuracy": 0.8875,
+    "baseline_accuracy": 0.925,
+    "delta_vs_baseline": -0.03750000000000009
+  },
+  {
+    "run": "sam",
+    "class": "person",
+    "n": 160,
+    "accuracy": 0.725,
+    "baseline_accuracy": 0.33125,
+    "delta_vs_baseline": 0.39375
+  }
+]

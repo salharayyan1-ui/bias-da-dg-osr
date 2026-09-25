@@ -1,0 +1,17 @@
+run,kind,path,true,erm_pred,run_pred
+dan_dg,broken,/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00767.png,dog,dog,horse
+dan_dg,broken,/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00367.png,elephant,elephant,horse
+dan_dg,broken,/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00219.png,elephant,elephant,guitar
+dan_dg,broken,/workspace/pa1-beyond-iid/data/pacs/sketch/giraffe/00650.png,giraffe,giraffe,horse
+dan_dg,fixed,/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00008.png,horse,giraffe,horse
+dan_dg,fixed,/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00238.png,dog,elephant,dog
+dan_dg,fixed,/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00779.png,horse,elephant,horse
+dan_dg,fixed,/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00377.png,horse,giraffe,horse
+sam,broken,/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00233.png,dog,dog,elephant
+sam,broken,/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00625.png,dog,dog,horse
+sam,broken,/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00617.png,dog,dog,horse
+sam,broken,/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00635.png,dog,dog,horse
+sam,fixed,/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00360.png,horse,giraffe,horse
+sam,fixed,/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00059.png,horse,giraffe,horse
+sam,fixed,/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00624.png,horse,giraffe,horse
+sam,fixed,/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00813.png,horse,giraffe,horse

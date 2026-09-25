@@ -1,0 +1,37 @@
+[
+  {
+    "run": "erm",
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "stopped_early": true,
+    "best_mean_source_val_f1": 0.9429884347046714
+  },
+  {
+    "run": "dan_dg",
+    "best_epoch": 4,
+    "epochs_run": 10,
+    "stopped_early": true,
+    "best_mean_source_val_f1": 0.9436662569078215
+  },
+  {
+    "run": "sam",
+    "best_epoch": 13,
+    "epochs_run": 19,
+    "stopped_early": true,
+    "best_mean_source_val_f1": 0.9549425389840036
+  },
+  {
+    "run": "dan_dg_lambda0.1",
+    "best_epoch": 6,
+    "epochs_run": 12,
+    "stopped_early": true,
+    "best_mean_source_val_f1": 0.9402519779800267
+  },
+  {
+    "run": "dan_dg_lambda10",
+    "best_epoch": 0,
+    "epochs_run": 6,
+    "stopped_early": true,
+    "best_mean_source_val_f1": 0.3778709298463206
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "best_epoch": 4,
+  "best_mean_val_macro_f1": 0.9436662569078215,
+  "config": {
+    "device": "cuda",
+    "eval_batch": 128,
+    "lr": 0.0001,
+    "max_epochs": 30,
+    "max_steps_per_epoch": null,
+    "num_workers": 2,
+    "patience": 5,
+    "per_source_batch": 8,
+    "seed": 6304,
+    "target_batch": 24,
+    "weight_decay": 0.0001
+  },
+  "epochs_run": 10,
+  "hparams": {
+    "lambda_dg": 1.0
+  },
+  "method": "dan_dg",
+  "minutes": 5.565981928507487,
+  "run": "dan_dg",
+  "run_name": "dan_dg",
+  "steps_per_epoch": 234,
+  "stopped_early": true,
+  "wall_clock_seconds": 334.18
+}

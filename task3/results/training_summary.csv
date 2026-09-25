@@ -1,0 +1,6 @@
+run,best_epoch,epochs_run,stopped_early,best_mean_source_val_f1
+erm,10,16,True,0.9430
+dan_dg,4,10,True,0.9437
+sam,13,19,True,0.9549
+dan_dg_lambda0.1,6,12,True,0.9403
+dan_dg_lambda10,0,6,True,0.3779

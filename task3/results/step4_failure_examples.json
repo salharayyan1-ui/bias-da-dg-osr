@@ -1,0 +1,130 @@
+[
+  {
+    "run": "dan_dg",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00767.png",
+    "true": "dog",
+    "erm_pred": "dog",
+    "run_pred": "horse"
+  },
+  {
+    "run": "dan_dg",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00367.png",
+    "true": "elephant",
+    "erm_pred": "elephant",
+    "run_pred": "horse"
+  },
+  {
+    "run": "dan_dg",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/elephant/00219.png",
+    "true": "elephant",
+    "erm_pred": "elephant",
+    "run_pred": "guitar"
+  },
+  {
+    "run": "dan_dg",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/giraffe/00650.png",
+    "true": "giraffe",
+    "erm_pred": "giraffe",
+    "run_pred": "horse"
+  },
+  {
+    "run": "dan_dg",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00008.png",
+    "true": "horse",
+    "erm_pred": "giraffe",
+    "run_pred": "horse"
+  },
+  {
+    "run": "dan_dg",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00238.png",
+    "true": "dog",
+    "erm_pred": "elephant",
+    "run_pred": "dog"
+  },
+  {
+    "run": "dan_dg",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00779.png",
+    "true": "horse",
+    "erm_pred": "elephant",
+    "run_pred": "horse"
+  },
+  {
+    "run": "dan_dg",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00377.png",
+    "true": "horse",
+    "erm_pred": "giraffe",
+    "run_pred": "horse"
+  },
+  {
+    "run": "sam",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00233.png",
+    "true": "dog",
+    "erm_pred": "dog",
+    "run_pred": "elephant"
+  },
+  {
+    "run": "sam",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00625.png",
+    "true": "dog",
+    "erm_pred": "dog",
+    "run_pred": "horse"
+  },
+  {
+    "run": "sam",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00617.png",
+    "true": "dog",
+    "erm_pred": "dog",
+    "run_pred": "horse"
+  },
+  {
+    "run": "sam",
+    "kind": "broken",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/dog/00635.png",
+    "true": "dog",
+    "erm_pred": "dog",
+    "run_pred": "horse"
+  },
+  {
+    "run": "sam",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00360.png",
+    "true": "horse",
+    "erm_pred": "giraffe",
+    "run_pred": "horse"
+  },
+  {
+    "run": "sam",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00059.png",
+    "true": "horse",
+    "erm_pred": "giraffe",
+    "run_pred": "horse"
+  },
+  {
+    "run": "sam",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00624.png",
+    "true": "horse",
+    "erm_pred": "giraffe",
+    "run_pred": "horse"
+  },
+  {
+    "run": "sam",
+    "kind": "fixed",
+    "path": "/workspace/pa1-beyond-iid/data/pacs/sketch/horse/00813.png",
+    "true": "horse",
+    "erm_pred": "giraffe",
+    "run_pred": "horse"
+  }
+]

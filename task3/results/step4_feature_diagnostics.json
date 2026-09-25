@@ -1,0 +1,42 @@
+[
+  {
+    "run": "erm",
+    "mean_feature_norm": 70.82672119140625,
+    "frac_zero_activations": 0.05143551464521452,
+    "effective_rank": 11.724688529968262,
+    "class_probe_acc_5fold": 0.9529877903615278,
+    "mean_source_f1": 0.9429884347046714
+  },
+  {
+    "run": "dan_dg",
+    "mean_feature_norm": 41.320674896240234,
+    "frac_zero_activations": 0.028379937603135313,
+    "effective_rank": 16.071149826049805,
+    "class_probe_acc_5fold": 0.9406149032411658,
+    "mean_source_f1": 0.9436662569078215
+  },
+  {
+    "run": "sam",
+    "mean_feature_norm": 42.180267333984375,
+    "frac_zero_activations": 0.21503068275577558,
+    "effective_rank": 12.954347610473633,
+    "class_probe_acc_5fold": 0.9529673842805156,
+    "mean_source_f1": 0.9549425389840036
+  },
+  {
+    "run": "dan_dg_lambda0.1",
+    "mean_feature_norm": 54.99616622924805,
+    "frac_zero_activations": 0.03755253455033003,
+    "effective_rank": 14.58202838897705,
+    "class_probe_acc_5fold": 0.9488691630105771,
+    "mean_source_f1": 0.9402519779800267
+  },
+  {
+    "run": "dan_dg_lambda10",
+    "mean_feature_norm": 106.64579010009766,
+    "frac_zero_activations": 0.30184966738861385,
+    "effective_rank": 2.652878522872925,
+    "class_probe_acc_5fold": 0.5619256538448458,
+    "mean_source_f1": 0.3778709298463206
+  }
+]
