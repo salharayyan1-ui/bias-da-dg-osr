@@ -1,0 +1,17 @@
+# Optional extension.
+seed: 6304
+method: rpl
+backbone: cifar_resnet18
+n_known_classes: 10
+reciprocal_points_per_class: 1
+optimizer: sgd
+lr: 0.1
+momentum: 0.9
+weight_decay: 5.0e-4
+lr_schedule: cosine
+batch_size: 128
+max_epochs: 100
+open_space_weight: 0.1        # ARPL reference default (weight_pl)
+temperature: 1.0
+distance: mean squared euclidean (divided by feature dim, as in the ARPL reference Dist)
+rejection_score: -max_k distance_k
