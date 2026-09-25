@@ -1,0 +1,38 @@
+[
+  {
+    "condition": "clean",
+    "head_accuracy": 0.988,
+    "zeroshot_accuracy": 0.974,
+    "head_zeroshot_agreement": 0.978
+  },
+  {
+    "condition": "grayscale",
+    "head_accuracy": 0.96,
+    "zeroshot_accuracy": 0.946,
+    "head_zeroshot_agreement": 0.96
+  },
+  {
+    "condition": "hue_rot_180",
+    "head_accuracy": 0.962,
+    "zeroshot_accuracy": 0.956,
+    "head_zeroshot_agreement": 0.974
+  },
+  {
+    "condition": "patch_shuffle_4x4",
+    "head_accuracy": 0.85,
+    "zeroshot_accuracy": 0.84,
+    "head_zeroshot_agreement": 0.868
+  },
+  {
+    "condition": "translation_32_right",
+    "head_accuracy": 0.972,
+    "zeroshot_accuracy": 0.958,
+    "head_zeroshot_agreement": 0.956
+  },
+  {
+    "condition": "cue_conflict",
+    "head_accuracy": 0.44166666666666665,
+    "zeroshot_accuracy": 0.4791666666666667,
+    "head_zeroshot_agreement": 0.6083333333333333
+  }
+]

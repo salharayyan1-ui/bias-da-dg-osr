@@ -1,0 +1,47 @@
+# Task 1 settings (the notebook task1/task1.ipynb is the entry point).
+seed: 6304
+dataset: stl10
+image: 224x224 RGB, bicubic resize of the 96x96 image (no centre crop)
+split: stratified 80/20 of the official train partition
+eval_subset: 500 class-balanced official test images (50 per class)
+
+backbones:
+  resnet50: {weights: IMAGENET1K_V2, feature: global-average-pooled, dim: 2048}
+  vit_b_16: {weights: IMAGENET1K_V1, feature: final class token (post-LayerNorm), dim: 768}
+  clip_vit_b_32: {source: open_clip, pretrained: openai, force_quick_gelu: true,
+                  feature: L2-normalized image embedding, dim: 512}
+clip_zero_shot_prompt: "a photo of a {class}."
+
+classifier_head:
+  optimizer: adamw
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  batch_size: 64
+  max_epochs: 50
+  early_stopping_patience: 5   # on validation accuracy
+  trained_on: cached frozen features (no augmentation)
+  input_standardization: per-dimension mean/std of the training split, inside the head (added in run v2)
+
+interventions:
+  grayscale: ITU-R 601 luma, replicated to 3 channels
+  additional_color: hue rotation by 180 degrees in YIQ (luma preserved)
+  translation: {pixels: [0, 8, 16, 32], directions: [up, down, left, right],
+                padding: reflection, averaged: over directions}
+  patch_shuffle: {grid: 4, permutation: one non-identity per image from RandomState(6304)}
+  supplementary: {hue_angles: [0, 45, 90, 135, 180], patch_grids: [2, 4, 8]}
+
+cue_conflicts:
+  method: AdaIN (naoto0804/pytorch-AdaIN pretrained encoder + decoder)
+  alpha: 1.0
+  supplementary_alphas: [0.5, 0.75]
+  pairs: [[airplane, cat], [bird, car], [dog, ship], [deer, truck], [horse, airplane], [monkey, car]]
+  directions: both per pair (12 total)
+  content_images: from the 500-image evaluation subset
+  style_images: central 60% crop of test images outside the subset
+  candidates_per_direction: 50
+  kept_per_direction: 20        # 240 images total
+  rejection_rule: {min_pixel_std: 0.04, min_mean_abs_diff_to_content: 0.05, min_edge_correlation: 0.45}
+
+representation_analysis:
+  metric: cosine stability I_T, plus a random-pair cosine floor and normalized stability
+  projection: {method: tsne, metric: cosine, perplexity: 30, init: pca, seed: 6304}

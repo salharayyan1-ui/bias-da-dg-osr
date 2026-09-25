@@ -1,0 +1,7 @@
+condition,head_accuracy,zeroshot_accuracy,head_zeroshot_agreement
+clean,0.9880,0.9740,0.9780
+grayscale,0.9600,0.9460,0.9600
+hue_rot_180,0.9620,0.9560,0.9740
+patch_shuffle_4x4,0.8500,0.8400,0.8680
+translation_32_right,0.9720,0.9580,0.9560
+cue_conflict,0.4417,0.4792,0.6083

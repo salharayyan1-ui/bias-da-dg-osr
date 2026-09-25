@@ -1,0 +1,8 @@
+{
+  "method": "tsne",
+  "metric": "cosine",
+  "perplexity": 30,
+  "init": "pca",
+  "seed": 6304,
+  "translation_panel": "32 px, direction assigned cyclically per image (up, down, left, right)"
+}

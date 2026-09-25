@@ -1,0 +1,242 @@
+[
+  {
+    "model": "resnet50",
+    "class": "airplane",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.084
+  },
+  {
+    "model": "resnet50",
+    "class": "bird",
+    "clean_pred_frac": 0.096,
+    "shuffled_pred_frac": 0.1
+  },
+  {
+    "model": "resnet50",
+    "class": "car",
+    "clean_pred_frac": 0.098,
+    "shuffled_pred_frac": 0.116
+  },
+  {
+    "model": "resnet50",
+    "class": "cat",
+    "clean_pred_frac": 0.102,
+    "shuffled_pred_frac": 0.1
+  },
+  {
+    "model": "resnet50",
+    "class": "deer",
+    "clean_pred_frac": 0.096,
+    "shuffled_pred_frac": 0.122
+  },
+  {
+    "model": "resnet50",
+    "class": "dog",
+    "clean_pred_frac": 0.102,
+    "shuffled_pred_frac": 0.092
+  },
+  {
+    "model": "resnet50",
+    "class": "horse",
+    "clean_pred_frac": 0.102,
+    "shuffled_pred_frac": 0.1
+  },
+  {
+    "model": "resnet50",
+    "class": "monkey",
+    "clean_pred_frac": 0.102,
+    "shuffled_pred_frac": 0.084
+  },
+  {
+    "model": "resnet50",
+    "class": "ship",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.108
+  },
+  {
+    "model": "resnet50",
+    "class": "truck",
+    "clean_pred_frac": 0.102,
+    "shuffled_pred_frac": 0.094
+  },
+  {
+    "model": "vit_b_16",
+    "class": "airplane",
+    "clean_pred_frac": 0.098,
+    "shuffled_pred_frac": 0.102
+  },
+  {
+    "model": "vit_b_16",
+    "class": "bird",
+    "clean_pred_frac": 0.094,
+    "shuffled_pred_frac": 0.1
+  },
+  {
+    "model": "vit_b_16",
+    "class": "car",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.1
+  },
+  {
+    "model": "vit_b_16",
+    "class": "cat",
+    "clean_pred_frac": 0.096,
+    "shuffled_pred_frac": 0.096
+  },
+  {
+    "model": "vit_b_16",
+    "class": "deer",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.108
+  },
+  {
+    "model": "vit_b_16",
+    "class": "dog",
+    "clean_pred_frac": 0.106,
+    "shuffled_pred_frac": 0.108
+  },
+  {
+    "model": "vit_b_16",
+    "class": "horse",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.09
+  },
+  {
+    "model": "vit_b_16",
+    "class": "monkey",
+    "clean_pred_frac": 0.102,
+    "shuffled_pred_frac": 0.1
+  },
+  {
+    "model": "vit_b_16",
+    "class": "ship",
+    "clean_pred_frac": 0.104,
+    "shuffled_pred_frac": 0.1
+  },
+  {
+    "model": "vit_b_16",
+    "class": "truck",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.096
+  },
+  {
+    "model": "clip_head",
+    "class": "airplane",
+    "clean_pred_frac": 0.102,
+    "shuffled_pred_frac": 0.094
+  },
+  {
+    "model": "clip_head",
+    "class": "bird",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.142
+  },
+  {
+    "model": "clip_head",
+    "class": "car",
+    "clean_pred_frac": 0.094,
+    "shuffled_pred_frac": 0.11
+  },
+  {
+    "model": "clip_head",
+    "class": "cat",
+    "clean_pred_frac": 0.098,
+    "shuffled_pred_frac": 0.094
+  },
+  {
+    "model": "clip_head",
+    "class": "deer",
+    "clean_pred_frac": 0.102,
+    "shuffled_pred_frac": 0.092
+  },
+  {
+    "model": "clip_head",
+    "class": "dog",
+    "clean_pred_frac": 0.098,
+    "shuffled_pred_frac": 0.07
+  },
+  {
+    "model": "clip_head",
+    "class": "horse",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.088
+  },
+  {
+    "model": "clip_head",
+    "class": "monkey",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.124
+  },
+  {
+    "model": "clip_head",
+    "class": "ship",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.084
+  },
+  {
+    "model": "clip_head",
+    "class": "truck",
+    "clean_pred_frac": 0.106,
+    "shuffled_pred_frac": 0.102
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "airplane",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.088
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "bird",
+    "clean_pred_frac": 0.104,
+    "shuffled_pred_frac": 0.134
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "car",
+    "clean_pred_frac": 0.094,
+    "shuffled_pred_frac": 0.124
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "cat",
+    "clean_pred_frac": 0.088,
+    "shuffled_pred_frac": 0.082
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "deer",
+    "clean_pred_frac": 0.106,
+    "shuffled_pred_frac": 0.108
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "dog",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.118
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "horse",
+    "clean_pred_frac": 0.102,
+    "shuffled_pred_frac": 0.092
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "monkey",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.072
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "ship",
+    "clean_pred_frac": 0.1,
+    "shuffled_pred_frac": 0.1
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "truck",
+    "clean_pred_frac": 0.106,
+    "shuffled_pred_frac": 0.082
+  }
+]

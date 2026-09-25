@@ -1,0 +1,5 @@
+model,clean_acc,grayscale_acc,grayscale_delta,grayscale_consistency,hue_rot_180_acc,hue_rot_180_delta,hue_rot_180_consistency,patch_shuffle_4x4_acc,patch_shuffle_4x4_delta,patch_shuffle_4x4_consistency
+resnet50,0.9800,0.9400,-0.0400,0.9520,0.9560,-0.0240,0.9640,0.8920,-0.0880,0.8960
+vit_b_16,0.9780,0.9660,-0.0120,0.9700,0.9560,-0.0220,0.9580,0.9160,-0.0620,0.9260
+clip_head,0.9880,0.9600,-0.0280,0.9640,0.9620,-0.0260,0.9640,0.8500,-0.1380,0.8520
+clip_zeroshot,0.9740,0.9460,-0.0280,0.9640,0.9560,-0.0180,0.9680,0.8400,-0.1340,0.8400

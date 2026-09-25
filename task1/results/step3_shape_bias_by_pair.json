@@ -1,0 +1,242 @@
+[
+  {
+    "group": "airplane-cat",
+    "model": "resnet50",
+    "n_shape": 4,
+    "n_texture": 2,
+    "n_other": 34,
+    "n_total": 40,
+    "shape_bias_pct": 66.66666666666667,
+    "coverage_pct": 15.0
+  },
+  {
+    "group": "airplane-cat",
+    "model": "vit_b_16",
+    "n_shape": 17,
+    "n_texture": 7,
+    "n_other": 16,
+    "n_total": 40,
+    "shape_bias_pct": 70.83333333333333,
+    "coverage_pct": 60.0
+  },
+  {
+    "group": "airplane-cat",
+    "model": "clip_head",
+    "n_shape": 13,
+    "n_texture": 0,
+    "n_other": 27,
+    "n_total": 40,
+    "shape_bias_pct": 100.0,
+    "coverage_pct": 32.5
+  },
+  {
+    "group": "airplane-cat",
+    "model": "clip_zeroshot",
+    "n_shape": 16,
+    "n_texture": 1,
+    "n_other": 23,
+    "n_total": 40,
+    "shape_bias_pct": 94.11764705882354,
+    "coverage_pct": 42.5
+  },
+  {
+    "group": "bird-car",
+    "model": "resnet50",
+    "n_shape": 16,
+    "n_texture": 10,
+    "n_other": 14,
+    "n_total": 40,
+    "shape_bias_pct": 61.53846153846154,
+    "coverage_pct": 65.0
+  },
+  {
+    "group": "bird-car",
+    "model": "vit_b_16",
+    "n_shape": 25,
+    "n_texture": 4,
+    "n_other": 11,
+    "n_total": 40,
+    "shape_bias_pct": 86.20689655172414,
+    "coverage_pct": 72.5
+  },
+  {
+    "group": "bird-car",
+    "model": "clip_head",
+    "n_shape": 27,
+    "n_texture": 3,
+    "n_other": 10,
+    "n_total": 40,
+    "shape_bias_pct": 90.0,
+    "coverage_pct": 75.0
+  },
+  {
+    "group": "bird-car",
+    "model": "clip_zeroshot",
+    "n_shape": 28,
+    "n_texture": 1,
+    "n_other": 11,
+    "n_total": 40,
+    "shape_bias_pct": 96.55172413793103,
+    "coverage_pct": 72.5
+  },
+  {
+    "group": "deer-truck",
+    "model": "resnet50",
+    "n_shape": 11,
+    "n_texture": 11,
+    "n_other": 18,
+    "n_total": 40,
+    "shape_bias_pct": 50.0,
+    "coverage_pct": 55.0
+  },
+  {
+    "group": "deer-truck",
+    "model": "vit_b_16",
+    "n_shape": 16,
+    "n_texture": 2,
+    "n_other": 22,
+    "n_total": 40,
+    "shape_bias_pct": 88.88888888888889,
+    "coverage_pct": 45.0
+  },
+  {
+    "group": "deer-truck",
+    "model": "clip_head",
+    "n_shape": 24,
+    "n_texture": 2,
+    "n_other": 14,
+    "n_total": 40,
+    "shape_bias_pct": 92.3076923076923,
+    "coverage_pct": 65.0
+  },
+  {
+    "group": "deer-truck",
+    "model": "clip_zeroshot",
+    "n_shape": 22,
+    "n_texture": 0,
+    "n_other": 18,
+    "n_total": 40,
+    "shape_bias_pct": 100.0,
+    "coverage_pct": 55.0
+  },
+  {
+    "group": "dog-ship",
+    "model": "resnet50",
+    "n_shape": 4,
+    "n_texture": 15,
+    "n_other": 21,
+    "n_total": 40,
+    "shape_bias_pct": 21.05263157894737,
+    "coverage_pct": 47.5
+  },
+  {
+    "group": "dog-ship",
+    "model": "vit_b_16",
+    "n_shape": 13,
+    "n_texture": 6,
+    "n_other": 21,
+    "n_total": 40,
+    "shape_bias_pct": 68.42105263157895,
+    "coverage_pct": 47.5
+  },
+  {
+    "group": "dog-ship",
+    "model": "clip_head",
+    "n_shape": 7,
+    "n_texture": 1,
+    "n_other": 32,
+    "n_total": 40,
+    "shape_bias_pct": 87.5,
+    "coverage_pct": 20.0
+  },
+  {
+    "group": "dog-ship",
+    "model": "clip_zeroshot",
+    "n_shape": 12,
+    "n_texture": 8,
+    "n_other": 20,
+    "n_total": 40,
+    "shape_bias_pct": 60.0,
+    "coverage_pct": 50.0
+  },
+  {
+    "group": "horse-airplane",
+    "model": "resnet50",
+    "n_shape": 5,
+    "n_texture": 2,
+    "n_other": 33,
+    "n_total": 40,
+    "shape_bias_pct": 71.42857142857143,
+    "coverage_pct": 17.5
+  },
+  {
+    "group": "horse-airplane",
+    "model": "vit_b_16",
+    "n_shape": 12,
+    "n_texture": 3,
+    "n_other": 25,
+    "n_total": 40,
+    "shape_bias_pct": 80.0,
+    "coverage_pct": 37.5
+  },
+  {
+    "group": "horse-airplane",
+    "model": "clip_head",
+    "n_shape": 16,
+    "n_texture": 2,
+    "n_other": 22,
+    "n_total": 40,
+    "shape_bias_pct": 88.88888888888889,
+    "coverage_pct": 45.0
+  },
+  {
+    "group": "horse-airplane",
+    "model": "clip_zeroshot",
+    "n_shape": 17,
+    "n_texture": 3,
+    "n_other": 20,
+    "n_total": 40,
+    "shape_bias_pct": 85.0,
+    "coverage_pct": 50.0
+  },
+  {
+    "group": "monkey-car",
+    "model": "resnet50",
+    "n_shape": 7,
+    "n_texture": 4,
+    "n_other": 29,
+    "n_total": 40,
+    "shape_bias_pct": 63.63636363636363,
+    "coverage_pct": 27.5
+  },
+  {
+    "group": "monkey-car",
+    "model": "vit_b_16",
+    "n_shape": 19,
+    "n_texture": 1,
+    "n_other": 20,
+    "n_total": 40,
+    "shape_bias_pct": 95.0,
+    "coverage_pct": 50.0
+  },
+  {
+    "group": "monkey-car",
+    "model": "clip_head",
+    "n_shape": 19,
+    "n_texture": 1,
+    "n_other": 20,
+    "n_total": 40,
+    "shape_bias_pct": 95.0,
+    "coverage_pct": 50.0
+  },
+  {
+    "group": "monkey-car",
+    "model": "clip_zeroshot",
+    "n_shape": 20,
+    "n_texture": 1,
+    "n_other": 19,
+    "n_total": 40,
+    "shape_bias_pct": 95.23809523809524,
+    "coverage_pct": 52.5
+  }
+]

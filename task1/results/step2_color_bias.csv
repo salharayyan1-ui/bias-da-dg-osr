@@ -1,0 +1,9 @@
+model,intervention,clean_accuracy,accuracy,accuracy_change,relative_accuracy,macro_f1,prediction_consistency,mean_max_confidence,clean_mean_max_confidence
+resnet50,grayscale,0.9800,0.9400,-0.0400,0.9592,0.9402,0.9520,0.9632,0.9757
+vit_b_16,grayscale,0.9780,0.9660,-0.0120,0.9877,0.9661,0.9700,0.9610,0.9714
+clip_head,grayscale,0.9880,0.9600,-0.0280,0.9717,0.9600,0.9640,0.9403,0.9637
+clip_zeroshot,grayscale,0.9740,0.9460,-0.0280,0.9713,0.9457,0.9640,0.9395,0.9509
+resnet50,hue_rot_180,0.9800,0.9560,-0.0240,0.9755,0.9561,0.9640,0.9738,0.9757
+vit_b_16,hue_rot_180,0.9780,0.9560,-0.0220,0.9775,0.9562,0.9580,0.9486,0.9714
+clip_head,hue_rot_180,0.9880,0.9620,-0.0260,0.9737,0.9621,0.9640,0.9287,0.9637
+clip_zeroshot,hue_rot_180,0.9740,0.9560,-0.0180,0.9815,0.9559,0.9680,0.9335,0.9509

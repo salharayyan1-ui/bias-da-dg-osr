@@ -1,0 +1,538 @@
+[
+  {
+    "model": "resnet50",
+    "pixels": 0,
+    "direction": "mean",
+    "accuracy": 0.98,
+    "accuracy_change": 0.0,
+    "consistency": 1.0
+  },
+  {
+    "model": "resnet50",
+    "pixels": 8,
+    "direction": "up",
+    "accuracy": 0.984,
+    "accuracy_change": 0.0040000000000000036,
+    "consistency": 0.988
+  },
+  {
+    "model": "resnet50",
+    "pixels": 8,
+    "direction": "down",
+    "accuracy": 0.98,
+    "accuracy_change": 0.0,
+    "consistency": 0.992
+  },
+  {
+    "model": "resnet50",
+    "pixels": 8,
+    "direction": "left",
+    "accuracy": 0.984,
+    "accuracy_change": 0.0040000000000000036,
+    "consistency": 0.986
+  },
+  {
+    "model": "resnet50",
+    "pixels": 8,
+    "direction": "right",
+    "accuracy": 0.978,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.99
+  },
+  {
+    "model": "resnet50",
+    "pixels": 8,
+    "direction": "mean",
+    "accuracy": 0.9815,
+    "accuracy_change": 0.0015000000000000568,
+    "consistency": 0.9890000000000001,
+    "accuracy_std_over_directions": 0.002598076211353318,
+    "consistency_std_over_directions": 0.002236067977499792
+  },
+  {
+    "model": "resnet50",
+    "pixels": 16,
+    "direction": "up",
+    "accuracy": 0.978,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.992
+  },
+  {
+    "model": "resnet50",
+    "pixels": 16,
+    "direction": "down",
+    "accuracy": 0.984,
+    "accuracy_change": 0.0040000000000000036,
+    "consistency": 0.994
+  },
+  {
+    "model": "resnet50",
+    "pixels": 16,
+    "direction": "left",
+    "accuracy": 0.986,
+    "accuracy_change": 0.006000000000000005,
+    "consistency": 0.986
+  },
+  {
+    "model": "resnet50",
+    "pixels": 16,
+    "direction": "right",
+    "accuracy": 0.976,
+    "accuracy_change": -0.0040000000000000036,
+    "consistency": 0.98
+  },
+  {
+    "model": "resnet50",
+    "pixels": 16,
+    "direction": "mean",
+    "accuracy": 0.981,
+    "accuracy_change": 0.0010000000000000009,
+    "consistency": 0.988,
+    "accuracy_std_over_directions": 0.004123105625617665,
+    "consistency_std_over_directions": 0.0054772255750516665
+  },
+  {
+    "model": "resnet50",
+    "pixels": 32,
+    "direction": "up",
+    "accuracy": 0.976,
+    "accuracy_change": -0.0040000000000000036,
+    "consistency": 0.99
+  },
+  {
+    "model": "resnet50",
+    "pixels": 32,
+    "direction": "down",
+    "accuracy": 0.968,
+    "accuracy_change": -0.01200000000000001,
+    "consistency": 0.978
+  },
+  {
+    "model": "resnet50",
+    "pixels": 32,
+    "direction": "left",
+    "accuracy": 0.984,
+    "accuracy_change": 0.0040000000000000036,
+    "consistency": 0.984
+  },
+  {
+    "model": "resnet50",
+    "pixels": 32,
+    "direction": "right",
+    "accuracy": 0.968,
+    "accuracy_change": -0.01200000000000001,
+    "consistency": 0.97
+  },
+  {
+    "model": "resnet50",
+    "pixels": 32,
+    "direction": "mean",
+    "accuracy": 0.974,
+    "accuracy_change": -0.006000000000000005,
+    "consistency": 0.9804999999999999,
+    "accuracy_std_over_directions": 0.006633249580710806,
+    "consistency_std_over_directions": 0.007399324293474377
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 0,
+    "direction": "mean",
+    "accuracy": 0.978,
+    "accuracy_change": 0.0,
+    "consistency": 1.0
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 8,
+    "direction": "up",
+    "accuracy": 0.982,
+    "accuracy_change": 0.0040000000000000036,
+    "consistency": 0.99
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 8,
+    "direction": "down",
+    "accuracy": 0.98,
+    "accuracy_change": 0.0020000000000000018,
+    "consistency": 0.99
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 8,
+    "direction": "left",
+    "accuracy": 0.982,
+    "accuracy_change": 0.0040000000000000036,
+    "consistency": 0.984
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 8,
+    "direction": "right",
+    "accuracy": 0.982,
+    "accuracy_change": 0.0040000000000000036,
+    "consistency": 0.984
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 8,
+    "direction": "mean",
+    "accuracy": 0.9815,
+    "accuracy_change": 0.0035000000000000586,
+    "consistency": 0.987,
+    "accuracy_std_over_directions": 0.0008660254037844396,
+    "consistency_std_over_directions": 0.0030000000000000027
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 16,
+    "direction": "up",
+    "accuracy": 0.978,
+    "accuracy_change": 0.0,
+    "consistency": 0.998
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 16,
+    "direction": "down",
+    "accuracy": 0.976,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.998
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 16,
+    "direction": "left",
+    "accuracy": 0.978,
+    "accuracy_change": 0.0,
+    "consistency": 0.996
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 16,
+    "direction": "right",
+    "accuracy": 0.976,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.99
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 16,
+    "direction": "mean",
+    "accuracy": 0.977,
+    "accuracy_change": -0.0010000000000000009,
+    "consistency": 0.9955,
+    "accuracy_std_over_directions": 0.0010000000000000009,
+    "consistency_std_over_directions": 0.0032787192621510034
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 32,
+    "direction": "up",
+    "accuracy": 0.978,
+    "accuracy_change": 0.0,
+    "consistency": 0.992
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 32,
+    "direction": "down",
+    "accuracy": 0.972,
+    "accuracy_change": -0.006000000000000005,
+    "consistency": 0.988
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 32,
+    "direction": "left",
+    "accuracy": 0.976,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.986
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 32,
+    "direction": "right",
+    "accuracy": 0.968,
+    "accuracy_change": -0.010000000000000009,
+    "consistency": 0.988
+  },
+  {
+    "model": "vit_b_16",
+    "pixels": 32,
+    "direction": "mean",
+    "accuracy": 0.9735,
+    "accuracy_change": -0.0044999999999999485,
+    "consistency": 0.9885,
+    "accuracy_std_over_directions": 0.0038405728739343077,
+    "consistency_std_over_directions": 0.002179449471770339
+  },
+  {
+    "model": "clip_head",
+    "pixels": 0,
+    "direction": "mean",
+    "accuracy": 0.988,
+    "accuracy_change": 0.0,
+    "consistency": 1.0
+  },
+  {
+    "model": "clip_head",
+    "pixels": 8,
+    "direction": "up",
+    "accuracy": 0.98,
+    "accuracy_change": -0.008000000000000007,
+    "consistency": 0.988
+  },
+  {
+    "model": "clip_head",
+    "pixels": 8,
+    "direction": "down",
+    "accuracy": 0.98,
+    "accuracy_change": -0.008000000000000007,
+    "consistency": 0.986
+  },
+  {
+    "model": "clip_head",
+    "pixels": 8,
+    "direction": "left",
+    "accuracy": 0.986,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.992
+  },
+  {
+    "model": "clip_head",
+    "pixels": 8,
+    "direction": "right",
+    "accuracy": 0.982,
+    "accuracy_change": -0.006000000000000005,
+    "consistency": 0.988
+  },
+  {
+    "model": "clip_head",
+    "pixels": 8,
+    "direction": "mean",
+    "accuracy": 0.982,
+    "accuracy_change": -0.006000000000000005,
+    "consistency": 0.9885,
+    "accuracy_std_over_directions": 0.0024494897427831805,
+    "consistency_std_over_directions": 0.002179449471770339
+  },
+  {
+    "model": "clip_head",
+    "pixels": 16,
+    "direction": "up",
+    "accuracy": 0.982,
+    "accuracy_change": -0.006000000000000005,
+    "consistency": 0.982
+  },
+  {
+    "model": "clip_head",
+    "pixels": 16,
+    "direction": "down",
+    "accuracy": 0.976,
+    "accuracy_change": -0.01200000000000001,
+    "consistency": 0.984
+  },
+  {
+    "model": "clip_head",
+    "pixels": 16,
+    "direction": "left",
+    "accuracy": 0.986,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.988
+  },
+  {
+    "model": "clip_head",
+    "pixels": 16,
+    "direction": "right",
+    "accuracy": 0.982,
+    "accuracy_change": -0.006000000000000005,
+    "consistency": 0.986
+  },
+  {
+    "model": "clip_head",
+    "pixels": 16,
+    "direction": "mean",
+    "accuracy": 0.9815,
+    "accuracy_change": -0.00649999999999995,
+    "consistency": 0.9849999999999999,
+    "accuracy_std_over_directions": 0.0035707142142714283,
+    "consistency_std_over_directions": 0.0022360679774997916
+  },
+  {
+    "model": "clip_head",
+    "pixels": 32,
+    "direction": "up",
+    "accuracy": 0.972,
+    "accuracy_change": -0.016000000000000014,
+    "consistency": 0.982
+  },
+  {
+    "model": "clip_head",
+    "pixels": 32,
+    "direction": "down",
+    "accuracy": 0.98,
+    "accuracy_change": -0.008000000000000007,
+    "consistency": 0.986
+  },
+  {
+    "model": "clip_head",
+    "pixels": 32,
+    "direction": "left",
+    "accuracy": 0.972,
+    "accuracy_change": -0.016000000000000014,
+    "consistency": 0.984
+  },
+  {
+    "model": "clip_head",
+    "pixels": 32,
+    "direction": "right",
+    "accuracy": 0.972,
+    "accuracy_change": -0.016000000000000014,
+    "consistency": 0.984
+  },
+  {
+    "model": "clip_head",
+    "pixels": 32,
+    "direction": "mean",
+    "accuracy": 0.974,
+    "accuracy_change": -0.014000000000000012,
+    "consistency": 0.984,
+    "accuracy_std_over_directions": 0.003464101615137758,
+    "consistency_std_over_directions": 0.0014142135623730963
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 0,
+    "direction": "mean",
+    "accuracy": 0.974,
+    "accuracy_change": 0.0,
+    "consistency": 1.0
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 8,
+    "direction": "up",
+    "accuracy": 0.974,
+    "accuracy_change": 0.0,
+    "consistency": 0.976
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 8,
+    "direction": "down",
+    "accuracy": 0.972,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.982
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 8,
+    "direction": "left",
+    "accuracy": 0.976,
+    "accuracy_change": 0.0020000000000000018,
+    "consistency": 0.976
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 8,
+    "direction": "right",
+    "accuracy": 0.972,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.976
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 8,
+    "direction": "mean",
+    "accuracy": 0.9734999999999999,
+    "accuracy_change": -0.000500000000000056,
+    "consistency": 0.9775,
+    "accuracy_std_over_directions": 0.0016583123951777014,
+    "consistency_std_over_directions": 0.002598076211353318
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 16,
+    "direction": "up",
+    "accuracy": 0.972,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.978
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 16,
+    "direction": "down",
+    "accuracy": 0.978,
+    "accuracy_change": 0.0040000000000000036,
+    "consistency": 0.982
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 16,
+    "direction": "left",
+    "accuracy": 0.972,
+    "accuracy_change": -0.0020000000000000018,
+    "consistency": 0.972
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 16,
+    "direction": "right",
+    "accuracy": 0.97,
+    "accuracy_change": -0.0040000000000000036,
+    "consistency": 0.976
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 16,
+    "direction": "mean",
+    "accuracy": 0.9729999999999999,
+    "accuracy_change": -0.001000000000000112,
+    "consistency": 0.977,
+    "accuracy_std_over_directions": 0.0030000000000000027,
+    "consistency_std_over_directions": 0.0036055512754639926
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 32,
+    "direction": "up",
+    "accuracy": 0.964,
+    "accuracy_change": -0.010000000000000009,
+    "consistency": 0.986
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 32,
+    "direction": "down",
+    "accuracy": 0.97,
+    "accuracy_change": -0.0040000000000000036,
+    "consistency": 0.982
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 32,
+    "direction": "left",
+    "accuracy": 0.956,
+    "accuracy_change": -0.018000000000000016,
+    "consistency": 0.972
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 32,
+    "direction": "right",
+    "accuracy": 0.958,
+    "accuracy_change": -0.016000000000000014,
+    "consistency": 0.978
+  },
+  {
+    "model": "clip_zeroshot",
+    "pixels": 32,
+    "direction": "mean",
+    "accuracy": 0.962,
+    "accuracy_change": -0.01200000000000001,
+    "consistency": 0.9795,
+    "accuracy_std_over_directions": 0.005477225575051666,
+    "consistency_std_over_directions": 0.005172040216394305
+  }
+]

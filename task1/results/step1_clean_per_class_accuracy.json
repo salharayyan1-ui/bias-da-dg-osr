@@ -1,0 +1,202 @@
+[
+  {
+    "model": "resnet50",
+    "class": "airplane",
+    "accuracy": 1.0
+  },
+  {
+    "model": "resnet50",
+    "class": "bird",
+    "accuracy": 0.96
+  },
+  {
+    "model": "resnet50",
+    "class": "car",
+    "accuracy": 0.96
+  },
+  {
+    "model": "resnet50",
+    "class": "cat",
+    "accuracy": 0.96
+  },
+  {
+    "model": "resnet50",
+    "class": "deer",
+    "accuracy": 0.96
+  },
+  {
+    "model": "resnet50",
+    "class": "dog",
+    "accuracy": 0.98
+  },
+  {
+    "model": "resnet50",
+    "class": "horse",
+    "accuracy": 1.0
+  },
+  {
+    "model": "resnet50",
+    "class": "monkey",
+    "accuracy": 1.0
+  },
+  {
+    "model": "resnet50",
+    "class": "ship",
+    "accuracy": 1.0
+  },
+  {
+    "model": "resnet50",
+    "class": "truck",
+    "accuracy": 0.98
+  },
+  {
+    "model": "vit_b_16",
+    "class": "airplane",
+    "accuracy": 0.98
+  },
+  {
+    "model": "vit_b_16",
+    "class": "bird",
+    "accuracy": 0.94
+  },
+  {
+    "model": "vit_b_16",
+    "class": "car",
+    "accuracy": 0.98
+  },
+  {
+    "model": "vit_b_16",
+    "class": "cat",
+    "accuracy": 0.96
+  },
+  {
+    "model": "vit_b_16",
+    "class": "deer",
+    "accuracy": 0.96
+  },
+  {
+    "model": "vit_b_16",
+    "class": "dog",
+    "accuracy": 1.0
+  },
+  {
+    "model": "vit_b_16",
+    "class": "horse",
+    "accuracy": 0.98
+  },
+  {
+    "model": "vit_b_16",
+    "class": "monkey",
+    "accuracy": 1.0
+  },
+  {
+    "model": "vit_b_16",
+    "class": "ship",
+    "accuracy": 1.0
+  },
+  {
+    "model": "vit_b_16",
+    "class": "truck",
+    "accuracy": 0.98
+  },
+  {
+    "model": "clip_head",
+    "class": "airplane",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_head",
+    "class": "bird",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_head",
+    "class": "car",
+    "accuracy": 0.94
+  },
+  {
+    "model": "clip_head",
+    "class": "cat",
+    "accuracy": 0.98
+  },
+  {
+    "model": "clip_head",
+    "class": "deer",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_head",
+    "class": "dog",
+    "accuracy": 0.98
+  },
+  {
+    "model": "clip_head",
+    "class": "horse",
+    "accuracy": 0.98
+  },
+  {
+    "model": "clip_head",
+    "class": "monkey",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_head",
+    "class": "ship",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_head",
+    "class": "truck",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "airplane",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "bird",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "car",
+    "accuracy": 0.94
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "cat",
+    "accuracy": 0.88
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "deer",
+    "accuracy": 0.96
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "dog",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "horse",
+    "accuracy": 0.98
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "monkey",
+    "accuracy": 0.98
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "ship",
+    "accuracy": 1.0
+  },
+  {
+    "model": "clip_zeroshot",
+    "class": "truck",
+    "accuracy": 1.0
+  }
+]

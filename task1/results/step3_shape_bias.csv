@@ -1,0 +1,5 @@
+model,n_shape,n_texture,n_other,n_total,shape_bias_pct,coverage_pct,mean_max_confidence
+resnet50,47,44,149,240,51.6484,37.9167,0.8554
+vit_b_16,102,23,115,240,81.6000,52.0833,0.6366
+clip_head,106,9,125,240,92.1739,47.9167,0.5071
+clip_zeroshot,115,14,111,240,89.1473,53.7500,0.5778

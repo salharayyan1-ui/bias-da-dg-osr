@@ -1,0 +1,5 @@
+model,top1_accuracy,macro_f1,mean_max_confidence
+resnet50,0.9800,0.9801,0.9362
+vit_b_16,0.9760,0.9760,0.9684
+clip_head,0.9840,0.9840,0.5858
+clip_zeroshot,0.9740,0.9739,0.9509

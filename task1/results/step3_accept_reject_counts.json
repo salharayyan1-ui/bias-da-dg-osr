@@ -1,0 +1,110 @@
+[
+  {
+    "pair": "airplane-cat",
+    "direction": "shape=airplane/texture=cat",
+    "generated": 50,
+    "accepted": 40,
+    "kept": 20,
+    "n_accepted": 40,
+    "n_content_shape_destroyed": 10
+  },
+  {
+    "pair": "airplane-cat",
+    "direction": "shape=cat/texture=airplane",
+    "generated": 50,
+    "accepted": 44,
+    "kept": 20,
+    "n_accepted": 44,
+    "n_content_shape_destroyed": 6
+  },
+  {
+    "pair": "bird-car",
+    "direction": "shape=bird/texture=car",
+    "generated": 50,
+    "accepted": 44,
+    "kept": 20,
+    "n_accepted": 44,
+    "n_content_shape_destroyed": 6
+  },
+  {
+    "pair": "bird-car",
+    "direction": "shape=car/texture=bird",
+    "generated": 50,
+    "accepted": 43,
+    "kept": 20,
+    "n_accepted": 43,
+    "n_content_shape_destroyed": 7
+  },
+  {
+    "pair": "deer-truck",
+    "direction": "shape=deer/texture=truck",
+    "generated": 50,
+    "accepted": 46,
+    "kept": 20,
+    "n_accepted": 46,
+    "n_content_shape_destroyed": 4
+  },
+  {
+    "pair": "deer-truck",
+    "direction": "shape=truck/texture=deer",
+    "generated": 50,
+    "accepted": 44,
+    "kept": 20,
+    "n_accepted": 44,
+    "n_content_shape_destroyed": 6
+  },
+  {
+    "pair": "dog-ship",
+    "direction": "shape=dog/texture=ship",
+    "generated": 50,
+    "accepted": 48,
+    "kept": 20,
+    "n_accepted": 48,
+    "n_content_shape_destroyed": 2
+  },
+  {
+    "pair": "dog-ship",
+    "direction": "shape=ship/texture=dog",
+    "generated": 50,
+    "accepted": 35,
+    "kept": 20,
+    "n_accepted": 35,
+    "n_content_shape_destroyed": 15
+  },
+  {
+    "pair": "horse-airplane",
+    "direction": "shape=airplane/texture=horse",
+    "generated": 50,
+    "accepted": 33,
+    "kept": 20,
+    "n_accepted": 33,
+    "n_content_shape_destroyed": 17
+  },
+  {
+    "pair": "horse-airplane",
+    "direction": "shape=horse/texture=airplane",
+    "generated": 50,
+    "accepted": 44,
+    "kept": 20,
+    "n_accepted": 44,
+    "n_content_shape_destroyed": 6
+  },
+  {
+    "pair": "monkey-car",
+    "direction": "shape=car/texture=monkey",
+    "generated": 50,
+    "accepted": 39,
+    "kept": 20,
+    "n_accepted": 39,
+    "n_content_shape_destroyed": 11
+  },
+  {
+    "pair": "monkey-car",
+    "direction": "shape=monkey/texture=car",
+    "generated": 50,
+    "accepted": 43,
+    "kept": 20,
+    "n_accepted": 43,
+    "n_content_shape_destroyed": 7
+  }
+]

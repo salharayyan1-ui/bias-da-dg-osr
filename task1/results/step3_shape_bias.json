@@ -1,0 +1,42 @@
+[
+  {
+    "model": "resnet50",
+    "n_shape": 47,
+    "n_texture": 44,
+    "n_other": 149,
+    "n_total": 240,
+    "shape_bias_pct": 51.64835164835165,
+    "coverage_pct": 37.916666666666664,
+    "mean_max_confidence": 0.8554321527481079
+  },
+  {
+    "model": "vit_b_16",
+    "n_shape": 102,
+    "n_texture": 23,
+    "n_other": 115,
+    "n_total": 240,
+    "shape_bias_pct": 81.6,
+    "coverage_pct": 52.083333333333336,
+    "mean_max_confidence": 0.6366155743598938
+  },
+  {
+    "model": "clip_head",
+    "n_shape": 106,
+    "n_texture": 9,
+    "n_other": 125,
+    "n_total": 240,
+    "shape_bias_pct": 92.17391304347827,
+    "coverage_pct": 47.916666666666664,
+    "mean_max_confidence": 0.5071178674697876
+  },
+  {
+    "model": "clip_zeroshot",
+    "n_shape": 115,
+    "n_texture": 14,
+    "n_other": 111,
+    "n_total": 240,
+    "shape_bias_pct": 89.14728682170542,
+    "coverage_pct": 53.75,
+    "mean_max_confidence": 0.5778035521507263
+  }
+]

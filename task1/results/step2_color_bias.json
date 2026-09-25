@@ -1,0 +1,98 @@
+[
+  {
+    "model": "resnet50",
+    "intervention": "grayscale",
+    "clean_accuracy": 0.98,
+    "accuracy": 0.94,
+    "accuracy_change": -0.040000000000000036,
+    "relative_accuracy": 0.9591836734693877,
+    "macro_f1": 0.9402409514470179,
+    "prediction_consistency": 0.952,
+    "mean_max_confidence": 0.9632126688957214,
+    "clean_mean_max_confidence": 0.9757184982299805
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "grayscale",
+    "clean_accuracy": 0.978,
+    "accuracy": 0.966,
+    "accuracy_change": -0.01200000000000001,
+    "relative_accuracy": 0.9877300613496932,
+    "macro_f1": 0.9660831847716427,
+    "prediction_consistency": 0.97,
+    "mean_max_confidence": 0.9609649777412415,
+    "clean_mean_max_confidence": 0.9714452028274536
+  },
+  {
+    "model": "clip_head",
+    "intervention": "grayscale",
+    "clean_accuracy": 0.988,
+    "accuracy": 0.96,
+    "accuracy_change": -0.028000000000000025,
+    "relative_accuracy": 0.97165991902834,
+    "macro_f1": 0.9599533458748034,
+    "prediction_consistency": 0.964,
+    "mean_max_confidence": 0.9402602910995483,
+    "clean_mean_max_confidence": 0.963675856590271
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "grayscale",
+    "clean_accuracy": 0.974,
+    "accuracy": 0.946,
+    "accuracy_change": -0.028000000000000025,
+    "relative_accuracy": 0.971252566735113,
+    "macro_f1": 0.9457204112414198,
+    "prediction_consistency": 0.964,
+    "mean_max_confidence": 0.9394643902778625,
+    "clean_mean_max_confidence": 0.9509369134902954
+  },
+  {
+    "model": "resnet50",
+    "intervention": "hue_rot_180",
+    "clean_accuracy": 0.98,
+    "accuracy": 0.956,
+    "accuracy_change": -0.02400000000000002,
+    "relative_accuracy": 0.9755102040816326,
+    "macro_f1": 0.9561119840304222,
+    "prediction_consistency": 0.964,
+    "mean_max_confidence": 0.9737563729286194,
+    "clean_mean_max_confidence": 0.9757184982299805
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "hue_rot_180",
+    "clean_accuracy": 0.978,
+    "accuracy": 0.956,
+    "accuracy_change": -0.02200000000000002,
+    "relative_accuracy": 0.9775051124744376,
+    "macro_f1": 0.9561881917932233,
+    "prediction_consistency": 0.958,
+    "mean_max_confidence": 0.9485748410224915,
+    "clean_mean_max_confidence": 0.9714452028274536
+  },
+  {
+    "model": "clip_head",
+    "intervention": "hue_rot_180",
+    "clean_accuracy": 0.988,
+    "accuracy": 0.962,
+    "accuracy_change": -0.026000000000000023,
+    "relative_accuracy": 0.9736842105263158,
+    "macro_f1": 0.9620557192042967,
+    "prediction_consistency": 0.964,
+    "mean_max_confidence": 0.9286991953849792,
+    "clean_mean_max_confidence": 0.963675856590271
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "hue_rot_180",
+    "clean_accuracy": 0.974,
+    "accuracy": 0.956,
+    "accuracy_change": -0.018000000000000016,
+    "relative_accuracy": 0.9815195071868583,
+    "macro_f1": 0.9558612722323483,
+    "prediction_consistency": 0.968,
+    "mean_max_confidence": 0.9334926605224609,
+    "clean_mean_max_confidence": 0.9509369134902954
+  }
+]

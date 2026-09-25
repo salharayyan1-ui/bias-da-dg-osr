@@ -1,0 +1,13 @@
+pair,direction,generated,accepted,kept,n_accepted,n_content_shape_destroyed
+airplane-cat,shape=airplane/texture=cat,50,40,20,40,10
+airplane-cat,shape=cat/texture=airplane,50,44,20,44,6
+bird-car,shape=bird/texture=car,50,44,20,44,6
+bird-car,shape=car/texture=bird,50,43,20,43,7
+deer-truck,shape=deer/texture=truck,50,46,20,46,4
+deer-truck,shape=truck/texture=deer,50,44,20,44,6
+dog-ship,shape=dog/texture=ship,50,48,20,48,2
+dog-ship,shape=ship/texture=dog,50,35,20,35,15
+horse-airplane,shape=airplane/texture=horse,50,33,20,33,17
+horse-airplane,shape=horse/texture=airplane,50,44,20,44,6
+monkey-car,shape=car/texture=monkey,50,39,20,39,11
+monkey-car,shape=monkey/texture=car,50,43,20,43,7

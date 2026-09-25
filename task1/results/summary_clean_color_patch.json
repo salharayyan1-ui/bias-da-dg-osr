@@ -1,0 +1,54 @@
+[
+  {
+    "model": "resnet50",
+    "clean_acc": 0.98,
+    "grayscale_acc": 0.94,
+    "grayscale_delta": -0.040000000000000036,
+    "grayscale_consistency": 0.952,
+    "hue_rot_180_acc": 0.956,
+    "hue_rot_180_delta": -0.02400000000000002,
+    "hue_rot_180_consistency": 0.964,
+    "patch_shuffle_4x4_acc": 0.892,
+    "patch_shuffle_4x4_delta": -0.08799999999999997,
+    "patch_shuffle_4x4_consistency": 0.896
+  },
+  {
+    "model": "vit_b_16",
+    "clean_acc": 0.978,
+    "grayscale_acc": 0.966,
+    "grayscale_delta": -0.01200000000000001,
+    "grayscale_consistency": 0.97,
+    "hue_rot_180_acc": 0.956,
+    "hue_rot_180_delta": -0.02200000000000002,
+    "hue_rot_180_consistency": 0.958,
+    "patch_shuffle_4x4_acc": 0.916,
+    "patch_shuffle_4x4_delta": -0.061999999999999944,
+    "patch_shuffle_4x4_consistency": 0.926
+  },
+  {
+    "model": "clip_head",
+    "clean_acc": 0.988,
+    "grayscale_acc": 0.96,
+    "grayscale_delta": -0.028000000000000025,
+    "grayscale_consistency": 0.964,
+    "hue_rot_180_acc": 0.962,
+    "hue_rot_180_delta": -0.026000000000000023,
+    "hue_rot_180_consistency": 0.964,
+    "patch_shuffle_4x4_acc": 0.85,
+    "patch_shuffle_4x4_delta": -0.138,
+    "patch_shuffle_4x4_consistency": 0.852
+  },
+  {
+    "model": "clip_zeroshot",
+    "clean_acc": 0.974,
+    "grayscale_acc": 0.946,
+    "grayscale_delta": -0.028000000000000025,
+    "grayscale_consistency": 0.964,
+    "hue_rot_180_acc": 0.956,
+    "hue_rot_180_delta": -0.018000000000000016,
+    "hue_rot_180_consistency": 0.968,
+    "patch_shuffle_4x4_acc": 0.84,
+    "patch_shuffle_4x4_delta": -0.134,
+    "patch_shuffle_4x4_consistency": 0.84
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "model": "resnet50",
+    "intervention": "grayscale",
+    "normalized_stability": 0.7208957349367736,
+    "consistency": 0.952
+  },
+  {
+    "model": "resnet50",
+    "intervention": "hue_rot_180",
+    "normalized_stability": 0.7782178994185677,
+    "consistency": 0.964
+  },
+  {
+    "model": "resnet50",
+    "intervention": "cue_conflict",
+    "normalized_stability": -0.0465305001705191,
+    "consistency": 0.19583333333333333
+  },
+  {
+    "model": "resnet50",
+    "intervention": "patch_shuffle_4x4",
+    "normalized_stability": 0.6213963968141479,
+    "consistency": 0.896
+  },
+  {
+    "model": "resnet50",
+    "intervention": "translation_8",
+    "normalized_stability": 0.9585381720430627,
+    "consistency": 0.9890000000000001
+  },
+  {
+    "model": "resnet50",
+    "intervention": "translation_16",
+    "normalized_stability": 0.937400955757424,
+    "consistency": 0.988
+  },
+  {
+    "model": "resnet50",
+    "intervention": "translation_32",
+    "normalized_stability": 0.9108770509266115,
+    "consistency": 0.9804999999999999
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "grayscale",
+    "normalized_stability": 0.7219663593387149,
+    "consistency": 0.97
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "hue_rot_180",
+    "normalized_stability": 0.6808012850319216,
+    "consistency": 0.958
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "cue_conflict",
+    "normalized_stability": 0.09578687382067824,
+    "consistency": 0.43333333333333335
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "patch_shuffle_4x4",
+    "normalized_stability": 0.6220060826872823,
+    "consistency": 0.926
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "translation_8",
+    "normalized_stability": 0.9420731337758076,
+    "consistency": 0.987
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "translation_16",
+    "normalized_stability": 0.9702084201001067,
+    "consistency": 0.9955
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "translation_32",
+    "normalized_stability": 0.9355934184469871,
+    "consistency": 0.9885
+  },
+  {
+    "model": "clip_head",
+    "intervention": "grayscale",
+    "normalized_stability": 0.7474807409731881,
+    "consistency": 0.964
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "grayscale",
+    "normalized_stability": 0.7474807409731881,
+    "consistency": 0.964
+  },
+  {
+    "model": "clip_head",
+    "intervention": "hue_rot_180",
+    "normalized_stability": 0.7542998603645199,
+    "consistency": 0.964
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "hue_rot_180",
+    "normalized_stability": 0.7542998603645199,
+    "consistency": 0.968
+  },
+  {
+    "model": "clip_head",
+    "intervention": "cue_conflict",
+    "normalized_stability": 0.03010554263192775,
+    "consistency": 0.44583333333333336
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "cue_conflict",
+    "normalized_stability": 0.03010554263192775,
+    "consistency": 0.4875
+  },
+  {
+    "model": "clip_head",
+    "intervention": "patch_shuffle_4x4",
+    "normalized_stability": 0.3011996270877272,
+    "consistency": 0.852
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "patch_shuffle_4x4",
+    "normalized_stability": 0.3011996270877272,
+    "consistency": 0.84
+  },
+  {
+    "model": "clip_head",
+    "intervention": "translation_8",
+    "normalized_stability": 0.9499046818852577,
+    "consistency": 0.9885
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "translation_8",
+    "normalized_stability": 0.9499046818852577,
+    "consistency": 0.9775
+  },
+  {
+    "model": "clip_head",
+    "intervention": "translation_16",
+    "normalized_stability": 0.9153688550392721,
+    "consistency": 0.9849999999999999
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "translation_16",
+    "normalized_stability": 0.9153688550392721,
+    "consistency": 0.977
+  },
+  {
+    "model": "clip_head",
+    "intervention": "translation_32",
+    "normalized_stability": 0.921010819885478,
+    "consistency": 0.984
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "translation_32",
+    "normalized_stability": 0.921010819885478,
+    "consistency": 0.9795
+  }
+]

@@ -1,0 +1,11 @@
+group,file,shape,texture,resnet50,vit_b_16,clip_head,clip_zeroshot
+all shape,0111_bird_as_car.png,bird,car,bird,bird,bird,bird
+all shape,0304_deer_as_truck.png,deer,truck,deer,deer,deer,deer
+CNN texture / CLIP shape,0367_truck_as_deer.png,truck,deer,deer,truck,truck,truck
+CNN texture / CLIP shape,0168_car_as_bird.png,car,bird,bird,car,car,car
+ViT texture / CNN shape,0115_bird_as_car.png,bird,car,bird,car,bird,bird
+ViT texture / CNN shape,0250_ship_as_dog.png,ship,dog,ship,dog,ship,ship
+head vs zero-shot disagree,0002_airplane_as_cat.png,airplane,cat,deer,cat,bird,airplane
+head vs zero-shot disagree,0107_bird_as_car.png,bird,car,ship,bird,bird,ship
+all other,0460_airplane_as_horse.png,airplane,horse,deer,bird,bird,monkey
+all other,0363_truck_as_deer.png,truck,deer,bird,bird,monkey,bird

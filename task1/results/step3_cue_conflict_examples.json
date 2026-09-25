@@ -1,0 +1,102 @@
+[
+  {
+    "group": "all shape",
+    "file": "0111_bird_as_car.png",
+    "shape": "bird",
+    "texture": "car",
+    "resnet50": "bird",
+    "vit_b_16": "bird",
+    "clip_head": "bird",
+    "clip_zeroshot": "bird"
+  },
+  {
+    "group": "all shape",
+    "file": "0304_deer_as_truck.png",
+    "shape": "deer",
+    "texture": "truck",
+    "resnet50": "deer",
+    "vit_b_16": "deer",
+    "clip_head": "deer",
+    "clip_zeroshot": "deer"
+  },
+  {
+    "group": "CNN texture / CLIP shape",
+    "file": "0367_truck_as_deer.png",
+    "shape": "truck",
+    "texture": "deer",
+    "resnet50": "deer",
+    "vit_b_16": "truck",
+    "clip_head": "truck",
+    "clip_zeroshot": "truck"
+  },
+  {
+    "group": "CNN texture / CLIP shape",
+    "file": "0168_car_as_bird.png",
+    "shape": "car",
+    "texture": "bird",
+    "resnet50": "bird",
+    "vit_b_16": "car",
+    "clip_head": "car",
+    "clip_zeroshot": "car"
+  },
+  {
+    "group": "ViT texture / CNN shape",
+    "file": "0115_bird_as_car.png",
+    "shape": "bird",
+    "texture": "car",
+    "resnet50": "bird",
+    "vit_b_16": "car",
+    "clip_head": "bird",
+    "clip_zeroshot": "bird"
+  },
+  {
+    "group": "ViT texture / CNN shape",
+    "file": "0250_ship_as_dog.png",
+    "shape": "ship",
+    "texture": "dog",
+    "resnet50": "ship",
+    "vit_b_16": "dog",
+    "clip_head": "ship",
+    "clip_zeroshot": "ship"
+  },
+  {
+    "group": "head vs zero-shot disagree",
+    "file": "0002_airplane_as_cat.png",
+    "shape": "airplane",
+    "texture": "cat",
+    "resnet50": "deer",
+    "vit_b_16": "cat",
+    "clip_head": "bird",
+    "clip_zeroshot": "airplane"
+  },
+  {
+    "group": "head vs zero-shot disagree",
+    "file": "0107_bird_as_car.png",
+    "shape": "bird",
+    "texture": "car",
+    "resnet50": "ship",
+    "vit_b_16": "bird",
+    "clip_head": "bird",
+    "clip_zeroshot": "ship"
+  },
+  {
+    "group": "all other",
+    "file": "0460_airplane_as_horse.png",
+    "shape": "airplane",
+    "texture": "horse",
+    "resnet50": "deer",
+    "vit_b_16": "bird",
+    "clip_head": "bird",
+    "clip_zeroshot": "monkey"
+  },
+  {
+    "group": "all other",
+    "file": "0363_truck_as_deer.png",
+    "shape": "truck",
+    "texture": "deer",
+    "resnet50": "bird",
+    "vit_b_16": "bird",
+    "clip_head": "monkey",
+    "clip_zeroshot": "bird"
+  }
+]

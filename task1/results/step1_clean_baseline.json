@@ -1,0 +1,26 @@
+[
+  {
+    "model": "resnet50",
+    "top1_accuracy": 0.98,
+    "macro_f1": 0.9800167771879227,
+    "mean_max_confidence": 0.9757184982299805
+  },
+  {
+    "model": "vit_b_16",
+    "top1_accuracy": 0.978,
+    "macro_f1": 0.9779927944753639,
+    "mean_max_confidence": 0.9714452028274536
+  },
+  {
+    "model": "clip_head",
+    "top1_accuracy": 0.988,
+    "macro_f1": 0.987994195095618,
+    "mean_max_confidence": 0.963675856590271
+  },
+  {
+    "model": "clip_zeroshot",
+    "top1_accuracy": 0.974,
+    "macro_f1": 0.9738844185639349,
+    "mean_max_confidence": 0.9509369134902954
+  }
+]

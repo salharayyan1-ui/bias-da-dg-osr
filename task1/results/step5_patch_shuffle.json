@@ -1,0 +1,50 @@
+[
+  {
+    "model": "resnet50",
+    "intervention": "patch_shuffle_4x4",
+    "clean_accuracy": 0.98,
+    "accuracy": 0.892,
+    "accuracy_change": -0.08799999999999997,
+    "relative_accuracy": 0.9102040816326531,
+    "macro_f1": 0.8917666024642716,
+    "prediction_consistency": 0.896,
+    "mean_max_confidence": 0.9353188872337341,
+    "clean_mean_max_confidence": 0.9757184982299805
+  },
+  {
+    "model": "vit_b_16",
+    "intervention": "patch_shuffle_4x4",
+    "clean_accuracy": 0.978,
+    "accuracy": 0.916,
+    "accuracy_change": -0.061999999999999944,
+    "relative_accuracy": 0.9366053169734152,
+    "macro_f1": 0.9159455359648169,
+    "prediction_consistency": 0.926,
+    "mean_max_confidence": 0.8956922292709351,
+    "clean_mean_max_confidence": 0.9714452028274536
+  },
+  {
+    "model": "clip_head",
+    "intervention": "patch_shuffle_4x4",
+    "clean_accuracy": 0.988,
+    "accuracy": 0.85,
+    "accuracy_change": -0.138,
+    "relative_accuracy": 0.8603238866396761,
+    "macro_f1": 0.8501689980316105,
+    "prediction_consistency": 0.852,
+    "mean_max_confidence": 0.7699981927871704,
+    "clean_mean_max_confidence": 0.963675856590271
+  },
+  {
+    "model": "clip_zeroshot",
+    "intervention": "patch_shuffle_4x4",
+    "clean_accuracy": 0.974,
+    "accuracy": 0.84,
+    "accuracy_change": -0.134,
+    "relative_accuracy": 0.8624229979466119,
+    "macro_f1": 0.8387262744138235,
+    "prediction_consistency": 0.84,
+    "mean_max_confidence": 0.8339272737503052,
+    "clean_mean_max_confidence": 0.9509369134902954
+  }
+]

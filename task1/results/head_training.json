@@ -1,0 +1,23 @@
+[
+  {
+    "backbone": "resnet50",
+    "feature_dim": 2048,
+    "epochs_run": 12,
+    "best_epoch": 6,
+    "best_val_accuracy": 0.9830000400543213
+  },
+  {
+    "backbone": "vit_b_16",
+    "feature_dim": 768,
+    "epochs_run": 9,
+    "best_epoch": 3,
+    "best_val_accuracy": 0.9880000352859497
+  },
+  {
+    "backbone": "clip_vit_b_32",
+    "feature_dim": 512,
+    "epochs_run": 7,
+    "best_epoch": 1,
+    "best_val_accuracy": 0.9960000514984131
+  }
+]

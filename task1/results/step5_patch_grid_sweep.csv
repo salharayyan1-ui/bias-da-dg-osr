@@ -1,0 +1,13 @@
+model,intervention,clean_accuracy,accuracy,accuracy_change,relative_accuracy,macro_f1,prediction_consistency,mean_max_confidence,clean_mean_max_confidence,grid
+resnet50,patch_shuffle_4x4,0.9800,0.8920,-0.0880,0.9102,0.8918,0.8960,0.9353,0.9757,4
+vit_b_16,patch_shuffle_4x4,0.9780,0.9160,-0.0620,0.9366,0.9159,0.9260,0.8957,0.9714,4
+clip_head,patch_shuffle_4x4,0.9880,0.8500,-0.1380,0.8603,0.8502,0.8520,0.7700,0.9637,4
+clip_zeroshot,patch_shuffle_4x4,0.9740,0.8400,-0.1340,0.8624,0.8387,0.8400,0.8339,0.9509,4
+resnet50,patch_shuffle_2x2,0.9800,0.9580,-0.0220,0.9776,0.9579,0.9660,0.9735,0.9757,2
+vit_b_16,patch_shuffle_2x2,0.9780,0.9620,-0.0160,0.9836,0.9620,0.9720,0.9554,0.9714,2
+clip_head,patch_shuffle_2x2,0.9880,0.9560,-0.0320,0.9676,0.9559,0.9600,0.9131,0.9637,2
+clip_zeroshot,patch_shuffle_2x2,0.9740,0.9440,-0.0300,0.9692,0.9432,0.9480,0.9184,0.9509,2
+resnet50,patch_shuffle_8x8,0.9800,0.6900,-0.2900,0.7041,0.6814,0.6860,0.8873,0.9757,8
+vit_b_16,patch_shuffle_8x8,0.9780,0.8140,-0.1640,0.8323,0.8155,0.8260,0.8181,0.9714,8
+clip_head,patch_shuffle_8x8,0.9880,0.4200,-0.5680,0.4251,0.4062,0.4260,0.4311,0.9637,8
+clip_zeroshot,patch_shuffle_8x8,0.9740,0.4920,-0.4820,0.5051,0.4877,0.4920,0.5741,0.9509,8
