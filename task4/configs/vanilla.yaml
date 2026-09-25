@@ -1,0 +1,15 @@
+seed: 6304
+method: vanilla
+backbone: cifar_resnet18   # 3x3 stride-1 stem, no maxpool, random init
+n_known_classes: 10
+train_split: cifar10_train_90pct   # stratified 90/10, seed 6304
+val_split: cifar10_val_10pct
+augmentation: [random_crop_32_pad4, random_horizontal_flip]
+optimizer: sgd
+lr: 0.1
+momentum: 0.9
+weight_decay: 5.0e-4
+lr_schedule: cosine
+batch_size: 128
+max_epochs: 100
+checkpoint_selection_metric: cifar10_val_accuracy

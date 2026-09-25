@@ -1,0 +1,22 @@
+seed: 6304
+method: proser
+initialized_from: vanilla.pth
+n_dummy_classifiers: 5
+optimizer: sgd
+lr: 1.0e-3
+momentum: 0.9
+weight_decay: 5.0e-4
+lr_schedule: cosine
+batch_size: 128
+max_epochs: 50
+beta_classifier_placeholder: 1.0
+gamma_data_placeholder: 0.1
+mixup_lambda_dist: beta_2_2
+mixup_split_point: after_layer2
+batch_split: first_half_classifier_placeholder_second_half_data_placeholder
+checkpoint_selection_metric: cifar10_val_accuracy
+evaluated_with: [mls_known_logits_only, placeholder_score]
+placeholder_score: max_dummy_logit - max_known_logit (95th-pct val threshold == paper bias calibration)
+extra_score: softmax([known, max_dummy])[-1] (reference AUROC score)
+mixup_pass_batchnorm: layer3/layer4 running statistics not updated by the mixed pass (momentum 0; batch statistics still used for normalization). Run v2 used eval mode (replaced, see README)
+supplementary_checkpoint: final epoch (proser_last.pth), reported as extra rows proser_last_*

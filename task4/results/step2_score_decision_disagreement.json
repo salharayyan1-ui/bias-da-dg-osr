@@ -1,0 +1,146 @@
+[
+  {
+    "set": "near",
+    "a": "mls",
+    "b": "msp",
+    "rejected_by_a_only": 0.08375,
+    "rejected_by_b_only": 0.04875,
+    "both": 0.25875
+  },
+  {
+    "set": "near",
+    "a": "energy",
+    "b": "msp",
+    "rejected_by_a_only": 0.0925,
+    "rejected_by_b_only": 0.0675,
+    "both": 0.24
+  },
+  {
+    "set": "near",
+    "a": "energy",
+    "b": "mls",
+    "rejected_by_a_only": 0.00875,
+    "rejected_by_b_only": 0.01875,
+    "both": 0.32375
+  },
+  {
+    "set": "near",
+    "a": "energy",
+    "b": "mahalanobis",
+    "rejected_by_a_only": 0.0975,
+    "rejected_by_b_only": 0.06125,
+    "both": 0.235
+  },
+  {
+    "set": "near",
+    "a": "mahalanobis",
+    "b": "msp",
+    "rejected_by_a_only": 0.035,
+    "rejected_by_b_only": 0.04625,
+    "both": 0.26125
+  },
+  {
+    "set": "near",
+    "a": "mahalanobis",
+    "b": "mls",
+    "rejected_by_a_only": 0.04875,
+    "rejected_by_b_only": 0.095,
+    "both": 0.2475
+  },
+  {
+    "set": "far",
+    "a": "mls",
+    "b": "msp",
+    "rejected_by_a_only": 0.1425,
+    "rejected_by_b_only": 0.04375,
+    "both": 0.42625
+  },
+  {
+    "set": "far",
+    "a": "energy",
+    "b": "msp",
+    "rejected_by_a_only": 0.1575,
+    "rejected_by_b_only": 0.05375,
+    "both": 0.41625
+  },
+  {
+    "set": "far",
+    "a": "energy",
+    "b": "mls",
+    "rejected_by_a_only": 0.015,
+    "rejected_by_b_only": 0.01,
+    "both": 0.55875
+  },
+  {
+    "set": "far",
+    "a": "energy",
+    "b": "mahalanobis",
+    "rejected_by_a_only": 0.11,
+    "rejected_by_b_only": 0.08125,
+    "both": 0.46375
+  },
+  {
+    "set": "far",
+    "a": "mahalanobis",
+    "b": "msp",
+    "rejected_by_a_only": 0.09625,
+    "rejected_by_b_only": 0.02125,
+    "both": 0.44875
+  },
+  {
+    "set": "far",
+    "a": "mahalanobis",
+    "b": "mls",
+    "rejected_by_a_only": 0.07625,
+    "rejected_by_b_only": 0.1,
+    "both": 0.46875
+  },
+  {
+    "set": "test",
+    "a": "mls",
+    "b": "msp",
+    "rejected_by_a_only": 0.0144,
+    "rejected_by_b_only": 0.0141,
+    "both": 0.0382
+  },
+  {
+    "set": "test",
+    "a": "energy",
+    "b": "msp",
+    "rejected_by_a_only": 0.0162,
+    "rejected_by_b_only": 0.0176,
+    "both": 0.0347
+  },
+  {
+    "set": "test",
+    "a": "energy",
+    "b": "mls",
+    "rejected_by_a_only": 0.0018,
+    "rejected_by_b_only": 0.0035,
+    "both": 0.0491
+  },
+  {
+    "set": "test",
+    "a": "energy",
+    "b": "mahalanobis",
+    "rejected_by_a_only": 0.0176,
+    "rejected_by_b_only": 0.0199,
+    "both": 0.0333
+  },
+  {
+    "set": "test",
+    "a": "mahalanobis",
+    "b": "msp",
+    "rejected_by_a_only": 0.0096,
+    "rejected_by_b_only": 0.0087,
+    "both": 0.0436
+  },
+  {
+    "set": "test",
+    "a": "mahalanobis",
+    "b": "mls",
+    "rejected_by_a_only": 0.0168,
+    "rejected_by_b_only": 0.0162,
+    "both": 0.0364
+  }
+]

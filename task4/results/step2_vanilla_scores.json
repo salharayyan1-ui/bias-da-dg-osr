@@ -1,0 +1,62 @@
+[
+  {
+    "name": "msp",
+    "auroc_near": 0.8212740000000001,
+    "auroc_far": 0.9002311249999999,
+    "auroc_all": 0.8607525625,
+    "tau": 0.1535738855600357,
+    "val_acceptance": 0.95,
+    "test_known_acceptance": 0.9477,
+    "near_rejection": 0.3075,
+    "far_rejection": 0.47,
+    "all_rejection": 0.38875,
+    "fpr95_near": 0.6925,
+    "fpr95_far": 0.53,
+    "fpr95_all": 0.61125
+  },
+  {
+    "name": "mls",
+    "auroc_near": 0.8057808750000001,
+    "auroc_far": 0.8993203749999998,
+    "auroc_all": 0.8525506249999999,
+    "tau": -5.861390590667725,
+    "val_acceptance": 0.95,
+    "test_known_acceptance": 0.9474,
+    "near_rejection": 0.3425,
+    "far_rejection": 0.56875,
+    "all_rejection": 0.455625,
+    "fpr95_near": 0.6575,
+    "fpr95_far": 0.43125,
+    "fpr95_all": 0.544375
+  },
+  {
+    "name": "energy",
+    "auroc_near": 0.80593,
+    "auroc_far": 0.9000013125,
+    "auroc_all": 0.8529656562500001,
+    "tau": -6.0263214111328125,
+    "val_acceptance": 0.95,
+    "test_known_acceptance": 0.9491,
+    "near_rejection": 0.3325,
+    "far_rejection": 0.57375,
+    "all_rejection": 0.453125,
+    "fpr95_near": 0.6675,
+    "fpr95_far": 0.42625,
+    "fpr95_all": 0.546875
+  },
+  {
+    "name": "mahalanobis",
+    "auroc_near": 0.8094481875,
+    "auroc_far": 0.9209575000000001,
+    "auroc_all": 0.8652028437500001,
+    "tau": 3019.071476305631,
+    "val_acceptance": 0.95,
+    "test_known_acceptance": 0.9468,
+    "near_rejection": 0.29625,
+    "far_rejection": 0.545,
+    "all_rejection": 0.420625,
+    "fpr95_near": 0.70375,
+    "fpr95_far": 0.455,
+    "fpr95_all": 0.579375
+  }
+]

@@ -1,0 +1,4 @@
+defaults: vanilla.yaml
+method: gcsc
+augmentation: [random_crop_32_pad4, random_horizontal_flip, randaugment_n2_m9]
+evaluated_with_score: mls

@@ -1,0 +1,32 @@
+[
+  {
+    "method": "vanilla",
+    "best_val_acc": 0.9536,
+    "epochs": 100,
+    "best_epoch": 97
+  },
+  {
+    "method": "gcsc",
+    "best_val_acc": 0.9586,
+    "epochs": 100,
+    "best_epoch": 97
+  },
+  {
+    "method": "proser",
+    "best_val_acc": 0.9436,
+    "epochs": 50,
+    "best_epoch": 46
+  },
+  {
+    "method": "proser_last",
+    "epochs": 50,
+    "epoch": 49,
+    "final_val_acc": 0.941
+  },
+  {
+    "method": "rpl",
+    "best_val_acc": 0.9562,
+    "epochs": 100,
+    "best_epoch": 99
+  }
+]

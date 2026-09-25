@@ -1,0 +1,17 @@
+group,index,unknown_class,predicted_known_class,score_mls,threshold
+near,75,fox,dog,-12.8074,-5.8614
+near,614,pickup_truck,automobile,-11.8478,-5.8614
+near,346,bus,automobile,-11.6411,-5.8614
+near,629,wolf,cat,-11.4218,-5.8614
+near,735,leopard,cat,-11.2840,-5.8614
+near,776,tractor,truck,-10.6780,-5.8614
+near,468,camel,bird,-10.4511,-5.8614
+near,270,motorcycle,truck,-10.1602,-5.8614
+far,617,bottle,cat,-11.6861,-5.8614
+far,704,mushroom,dog,-11.0551,-5.8614
+far,415,chair,airplane,-10.9159,-5.8614
+far,487,wardrobe,cat,-10.5880,-5.8614
+far,687,sunflower,bird,-10.5757,-5.8614
+far,770,clock,bird,-10.4803,-5.8614
+far,485,bowl,automobile,-10.2206,-5.8614
+far,346,keyboard,cat,-9.6174,-5.8614

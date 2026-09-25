@@ -1,0 +1,7 @@
+{
+  "best_val_acc": 0.9436,
+  "final_val_acc": 0.941,
+  "run": "proser",
+  "run_name": "task4_proser",
+  "wall_clock_seconds": 1352.31
+}

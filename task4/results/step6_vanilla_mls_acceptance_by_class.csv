@@ -1,0 +1,17 @@
+group,unknown_class,n,accepted_frac,top_absorbing_known,to_airplane,to_automobile,to_bird,to_cat,to_deer,to_dog,to_frog,to_horse,to_ship,to_truck
+near,bus,100,0.8600,"truck (70), automobile (14), ship (1)",1,14,0,0,0,0,0,0,1,70
+near,camel,100,0.5200,"deer (16), dog (12), bird (10)",3,0,10,3,16,12,0,8,0,0
+near,fox,100,0.7100,"cat (31), deer (22), dog (12)",0,0,2,31,22,12,1,3,0,0
+near,leopard,100,0.5500,"cat (24), frog (21), deer (4)",0,0,3,24,4,3,21,0,0,0
+near,motorcycle,100,0.3900,"automobile (24), truck (8), airplane (5)",5,24,0,1,0,0,1,0,0,8
+near,pickup_truck,100,0.9100,"automobile (61), truck (28), airplane (2)",2,61,0,0,0,0,0,0,0,28
+near,tractor,100,0.5400,"truck (47), ship (4), automobile (3)",0,3,0,0,0,0,0,0,4,47
+near,wolf,100,0.7800,"cat (37), dog (37), deer (2)",0,0,1,37,2,37,0,1,0,0
+far,bottle,100,0.3400,"cat (13), ship (9), truck (6)",2,0,4,13,0,0,0,0,9,6
+far,bowl,100,0.5200,"cat (14), frog (10), automobile (8)",5,8,3,14,0,4,10,0,6,2
+far,chair,100,0.4300,"airplane (18), bird (11), cat (7)",18,1,11,7,1,0,0,0,0,5
+far,clock,100,0.4300,"cat (14), automobile (9), ship (7)",2,9,5,14,0,1,0,0,7,5
+far,keyboard,100,0.3300,"airplane (10), bird (7), truck (7)",10,0,7,6,0,0,2,1,0,7
+far,mushroom,100,0.4600,"bird (19), cat (10), frog (8)",1,0,19,10,2,4,8,1,1,0
+far,sunflower,100,0.4200,"bird (16), dog (11), frog (6)",2,0,16,5,0,11,6,0,0,2
+far,wardrobe,100,0.5200,"cat (30), truck (21), horse (1)",0,0,0,30,0,0,0,1,0,21

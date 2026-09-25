@@ -1,0 +1,45 @@
+{
+  "summaries": {
+    "vanilla": {
+      "method": "vanilla",
+      "best_val_acc": 0.9536,
+      "epochs": 100,
+      "best_epoch": 97
+    },
+    "gcsc": {
+      "method": "gcsc",
+      "best_val_acc": 0.9586,
+      "epochs": 100,
+      "best_epoch": 97
+    },
+    "proser": {
+      "method": "proser",
+      "best_val_acc": 0.9534,
+      "epochs": 50,
+      "best_epoch": 21
+    },
+    "proser_last": {
+      "method": "proser_last",
+      "epochs": 50,
+      "epoch": 49,
+      "final_val_acc": 0.9524
+    },
+    "rpl": {
+      "method": "rpl",
+      "best_val_acc": 0.9562,
+      "epochs": 100,
+      "best_epoch": 99
+    }
+  },
+  "scores": [
+    "msp",
+    "mls",
+    "energy",
+    "mahalanobis",
+    "proser_placeholder",
+    "proser_dummy_prob",
+    "rpl_softmax_max",
+    "rpl_max_distance"
+  ],
+  "threshold": "95th percentile of u on CIFAR-10 validation; accept iff u <= tau"
+}

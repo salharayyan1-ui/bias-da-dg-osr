@@ -1,0 +1,6 @@
+method,best_val_acc,epochs,best_epoch,epoch,final_val_acc
+vanilla,0.9536,100,97.0000,,
+gcsc,0.9586,100,97.0000,,
+proser,0.9534,50,21.0000,,
+proser_last,,50,,49.0000,0.9524
+rpl,0.9562,100,99.0000,,
