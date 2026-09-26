@@ -5,7 +5,8 @@ EE-5102/CS-6304, Fall 2026 — Programming Assignment 1
 Each task has one notebook (`taskN/taskN.ipynb`) that runs every required step in order and writes:
 
 * machine-readable results to `taskN/results/` (every table as `.json` + `.csv`, training logs as `.metrics.jsonl`, run summaries, prediction arrays),
-* figures to `report/figures/taskN_*.png` and `.pdf`.
+* figures to `report/figures/taskN_*.png` and `.pdf`,
+* compiled report to `report/28100366_PA1.pdf`.
 
 Every number in the report should trace back to one of these files.
 
@@ -55,7 +56,7 @@ task1/      data/ (subset, interventions, AdaIN cue conflicts), models/, analysi
 task2/      methods/ (source_only, dan, dann, cdan), models/, evaluation/, train.py, evaluate_final.py, task2.ipynb
 task3/      methods/ (erm, dan_dg, sam), evaluation/ (sharpness, source separability), selection/, train.py, evaluate_sketch.py, task3.ipynb
 task4/      data/, models/, methods/ (vanilla, gcsc, proser, manifold_mixup, rpl), scores/, evaluation/, pipeline.py, task4.ipynb
-report/     figures/
+report/     28100366_PA1.pdf, figure_manifest.md, figures/
 scripts/    prepare_data.py, run_notebook.py (--quick for pipeline checks), run_queue.sh (quick checks + full runs)
 ```
 

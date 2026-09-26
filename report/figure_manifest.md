@@ -1,6 +1,7 @@
 # Figure manifest
 
 Every figure is written by its task notebook to `report/figures/` as PNG and PDF. Figures marked **req** cover the assignment's "Required Evidence". The rest are supplementary, for the appendix or for picking from.
+The compiled report is available at [28100366_PA1.pdf](28100366_PA1.pdf).
 
 ## Task 1 (`task1/task1.ipynb`)
 | File | Content |
